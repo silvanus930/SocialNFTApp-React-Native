@@ -1,0 +1,1 @@
+export const ENDORSEMENT_FONT_SIZE = 13;

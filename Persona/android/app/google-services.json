@@ -1,0 +1,215 @@
+{
+  "project_info": {
+    "project_number": "659704987877",
+    "firebase_url": "https://persona-srv-301611-default-rtdb.firebaseio.com",
+    "project_id": "persona-srv-301611",
+    "storage_bucket": "persona-srv-301611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659704987877:android:36b1b97f1a1e90dd44940c",
+        "android_client_info": {
+          "package_name": "com.example.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659704987877-vj5p78a6vrb4hk9v6n2c9903cgaja7gg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chat",
+            "certificate_hash": "8075c05508aa4f033940e318c3dfb9df0d8cfb71"
+          }
+        },
+        {
+          "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi-Uf13vpp9te4CFdka4s14jkQgdFBsSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "659704987877-56cqlshf8r76krc9sg00lp3bf17rl0i5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Persona.PersonaAlpha.debug"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659704987877:android:23e22fca8f13434b44940c",
+        "android_client_info": {
+          "package_name": "com.persona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi-Uf13vpp9te4CFdka4s14jkQgdFBsSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "659704987877-56cqlshf8r76krc9sg00lp3bf17rl0i5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Persona.PersonaAlpha.debug"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659704987877:android:f67bc5ca7ead998344940c",
+        "android_client_info": {
+          "package_name": "com.persona.personaalpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659704987877-3rgt4munjfcn87pn3bltpdee0pdga1ru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.persona.personaalpha",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "659704987877-68cfrt9ov4rn4qjr0fte8dgjes55flgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.persona.personaalpha",
+            "certificate_hash": "87ee47fe51ce0db48e41a26a2a895e427b546bbc"
+          }
+        },
+        {
+          "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi-Uf13vpp9te4CFdka4s14jkQgdFBsSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "659704987877-56cqlshf8r76krc9sg00lp3bf17rl0i5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Persona.PersonaAlpha.debug"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659704987877:android:9a2b0ee3e8e0af7544940c",
+        "android_client_info": {
+          "package_name": "com.persona.personaalpha.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi-Uf13vpp9te4CFdka4s14jkQgdFBsSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "659704987877-56cqlshf8r76krc9sg00lp3bf17rl0i5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Persona.PersonaAlpha.debug"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659704987877:android:cadc1922c513052444940c",
+        "android_client_info": {
+          "package_name": "im.vector.app.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi-Uf13vpp9te4CFdka4s14jkQgdFBsSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659704987877-lvcbaor73t5sqethd24bfbnbsq496315.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "659704987877-56cqlshf8r76krc9sg00lp3bf17rl0i5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Persona.PersonaAlpha.debug"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

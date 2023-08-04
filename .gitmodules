@@ -1,0 +1,6 @@
+[submodule "builds"]
+	path = builds
+	url = ./builds
+[submodule "Solana/solana-program-library"]
+	path = Solana/solana-program-library
+	url = https://github.com/solana-labs/solana-program-library

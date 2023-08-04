@@ -1,0 +1,337 @@
+import React, {
+    useEffect,
+    useState,
+    useCallback,
+    useContext,
+    useRef,
+} from 'react';
+import {View} from 'react-native';
+
+import firestore from '@react-native-firebase/firestore';
+import auth from '@react-native-firebase/auth';
+import Loading from 'components/Loading';
+import produce from 'immer';
+
+import {FeedDispatchContext, FeedStateContext} from 'state/FeedStateContext';
+import {Grid} from 'components/FeedScreen';
+import FeedPost from 'components/FeedPost';
+import DateSeperatorListItem from 'components/DateSeperatorListItem';
+import TransfersSummary from 'components/TransfersSummary';
+
+import {getCommunityTransactionPosts} from 'actions/posts';
+
+import {makeRegisterMediaPlayer} from 'utils/media/helpers';
+import {addDateSeperators} from 'utils/posts';
+
+import styles from './styles';
+
+const TransactionGrid =
+    (communityID, communityMap, back, displayHeader = false) =>
+    ({navigation, onScroll}) => {
+        const [_, setViewedItems] = useState([]);
+        const [noMoreDocs, setNoMoreDocs] = useState(false);
+        const [mediaArtifactRegistry, setMediaArtifactRegistry] = useState({});
+
+        const {state} = useContext(FeedStateContext);
+        const {dispatch} = useContext(FeedDispatchContext);
+
+        const flatlistRef = useRef();
+
+        const keyExtractor = useCallback(item => {
+            return item?.fid + item?.post?.id || 'charles';
+        }, []);
+
+        useEffect(() => fetchNext(state), []);
+        useEffect(() => {
+            if (state.refreshing) {
+                setNoMoreDocs(false);
+                fetchNext(state);
+                flatlistRef?.current?.scrollToOffset({
+                    animated: true,
+                    offset: 0,
+                });
+            }
+        }, [state.refreshing]);
+
+        const handleViewableItemsChanged = global.HANDLE_VIEWABLE_ITEMS_CHANGED
+            ? useCallback(
+                  viewableItems => {
+                      setViewedItems(oldViewedItems => {
+                          // We can have access to the current state without adding it
+                          //  to the useCallback dependencies
+
+                          let newViewedItems = null;
+                          let changed = viewableItems.changed;
+
+                          changed.forEach(({key, isViewable}) => {
+                              if (
+                                  key != null &&
+                                  isViewable &&
+                                  !oldViewedItems.includes(key)
+                              ) {
+                                  if (newViewedItems == null) {
+                                      newViewedItems = [...oldViewedItems];
+                                  }
+                                  newViewedItems.push(key);
+                              }
+
+                              if (mediaArtifactRegistry[key]) {
+                                  if (!isViewable) {
+                                      mediaArtifactRegistry[key].stop();
+                                  } else if (
+                                      mediaArtifactRegistry[key].startPaused ===
+                                      false
+                                  ) {
+                                      mediaArtifactRegistry[key].start();
+                                  }
+                              }
+                          });
+
+                          // If the items didn't change, we return the old items so
+                          //  an unnecessary re-render is avoided.
+                          return newViewedItems == null
+                              ? oldViewedItems
+                              : newViewedItems;
+                      });
+                  },
+                  // eslint-disable-next-line react-hooks/exhaustive-deps
+                  [],
+              )
+            : null;
+
+        const renderGridItem = useCallback(
+            ({item}) => {
+                let persona;
+                let personaKey;
+                let curated;
+                let post;
+                let postKey;
+                let muted;
+                let postType = item?.postType;
+
+                if (postType === 'dateSeperator') {
+                    return (
+                        <>
+                            <DateSeperatorListItem date={item?.date} />
+                            {item?.transfers && (
+                                <TransfersSummary transfers={item?.transfers} />
+                            )}
+                        </>
+                    );
+                } else if (postType === 'community') {
+                    personaKey = item.community.id;
+                    persona = Object.assign(
+                        {
+                            published: true,
+                            authors: item.community.data.members,
+                            private: item.community.data?.private || false,
+                        },
+                        communityMap[personaKey],
+                    );
+                    curated = false;
+                    post = item.post.data;
+                    postKey = item.post.id;
+                    muted = false;
+                } else {
+                    persona = item.persona.data;
+                    personaKey = item.persona.id;
+                    curated = item?.curated || false;
+                    post = item.post.data;
+                    postKey = item.post.id;
+                    muted = false;
+                }
+
+                if (
+                    persona?.private &&
+                    !persona?.authors?.includes(auth().currentUser.uid)
+                ) {
+                    return null;
+                }
+
+                return (
+                    <FeedPost
+                        feedId={item.fid}
+                        communityID={communityID}
+                        curated={curated}
+                        persona={persona}
+                        navigation={navigation}
+                        personaName={persona.name}
+                        personaKey={personaKey}
+                        post={post}
+                        postType={postType}
+                        postKey={postKey}
+                        personaProfileImgUrl={persona.profileImgUrl}
+                        navToPost={true}
+                        startPaused={false}
+                        showIdentity={false}
+                        registerMediaPlayer={makeRegisterMediaPlayer(
+                            mediaArtifactRegistry,
+                            setMediaArtifactRegistry,
+                            'HomePersonaDisplay',
+                        )}
+                    />
+                );
+            },
+            [
+                navigation,
+                mediaArtifactRegistry,
+                setMediaArtifactRegistry,
+                communityID,
+                communityMap,
+            ],
+        );
+
+        const fetchNext = useCallback(
+            prevState => {
+                const paginationSize = 80;
+                const feedCollection =
+                    getCommunityTransactionPosts(communityID);
+
+                let next = prevState.nextQuery;
+                let oldFeedData = prevState.feedData || [];
+                if (prevState.nextQuery === undefined) {
+                    next = feedCollection.limit(paginationSize);
+                    oldFeedData = [];
+                }
+                next.get().then(documentSnapshots => {
+                    let nextFeedData = documentSnapshots.docs.map(feedDoc => ({
+                        ...feedDoc.data(),
+                        fid: feedDoc.id,
+                    }));
+
+                    const feedData = oldFeedData.concat(nextFeedData);
+
+                    const lastVisibleDoc =
+                        documentSnapshots.docs[
+                            documentSnapshots.docs.length - 1
+                        ];
+                    if (lastVisibleDoc?.exists) {
+                        const nextState = produce(prevState, draft => {
+                            draft.refreshing = false;
+                            draft.feedData = feedData;
+                            draft.nextQuery = feedCollection
+                                .startAfter(lastVisibleDoc)
+                                .limit(paginationSize);
+                        });
+                        dispatch({type: 'updateFeed', payload: nextState});
+                    } else {
+                        const nextState = produce(prevState, draft => {
+                            draft.refreshing = false;
+                            draft.feedData = feedData;
+                        });
+                        dispatch({type: 'updateFeed', payload: nextState});
+                        setNoMoreDocs(true);
+                    }
+                });
+            },
+            [dispatch],
+        );
+
+        const onRefresh = () => {
+            dispatch({type: 'refreshFeed'});
+        };
+
+        const onEndReached = () => fetchNext(state);
+
+        const sortFunc = (a, b) => {
+            return b?.post?.data?.publishDate - a?.post?.data?.publishDate;
+        };
+
+        const data = [...(state?.feedData || [])].sort(sortFunc);
+        const filteredData = [];
+
+        data.map((i, index) => {
+            let item = {...i};
+            let persona;
+            let personaKey;
+            let curated;
+            let post;
+            let postKey;
+            let muted;
+            let postType = item?.postType;
+
+            if (postType === 'community') {
+                personaKey = item.community.id;
+                persona = Object.assign(
+                    {
+                        published: true,
+                        authors: item.community.data.members,
+                        private: item.community.data?.private || false,
+                    },
+                    communityMap[personaKey],
+                );
+                curated = false;
+                post = item.post.data;
+                postKey = item.post.id;
+                muted = false;
+            } else {
+                persona = item.persona.data;
+                personaKey = item.persona.id;
+                curated = item?.curated || false;
+                post = item.post.data;
+                postKey = item.post.id;
+                muted = false;
+            }
+
+            if (
+                persona?.private &&
+                !persona?.authors?.includes(auth().currentUser.uid)
+            ) {
+                return;
+            }
+            filteredData.push(item);
+        });
+
+        const dateSeparatedFilteredData = addDateSeperators(filteredData);
+
+        //
+        // ...and for each date seperator, collect child transfers
+        //
+        dateSeparatedFilteredData.map((item, index) => {
+            if (item?.postType === 'dateSeperator') {
+                const transfers = [];
+                for (
+                    let k = index + 1;
+                    k < dateSeparatedFilteredData.length;
+                    k++
+                ) {
+                    const next = dateSeparatedFilteredData[k];
+                    if (next?.postType !== 'dateSeperator') {
+                        transfers.push(next);
+                    } else {
+                        break;
+                    }
+                }
+                if (transfers.length > 0) {
+                    item.transfers = transfers;
+                }
+            }
+        });
+
+        return state.feedData === undefined ? (
+            <Loading backgroundColor="transparent" />
+        ) : (
+            <View style={styles.container}>
+                <Grid
+                    onScroll={onScroll}
+                    communityID={communityID}
+                    back={back}
+                    displayHeader={displayHeader}
+                    name={'anima'}
+                    numColumns={1}
+                    flatlistRef={flatlistRef}
+                    noMoreDocs={noMoreDocs}
+                    data={dateSeparatedFilteredData}
+                    refreshing={state.refreshing}
+                    keyExtractor={keyExtractor}
+                    showCreatePost={false}
+                    onRefresh={onRefresh}
+                    handleViewableItemsChanged={handleViewableItemsChanged}
+                    onEndReached={onEndReached}
+                    renderGridItem={renderGridItem}
+                />
+            </View>
+        );
+    };
+
+export default TransactionGrid;

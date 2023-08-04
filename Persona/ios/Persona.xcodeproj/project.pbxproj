@@ -1,0 +1,2218 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* PersonaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PersonaTests.m */; };
+		05EC5F2D4B5946E5AE3E1A83 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA2E4B2595DA4595B71AEA03 /* SF-Pro-Display-ThinItalic.otf */; };
+		08188CCC48AF426493C6B0B1 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8071A5DD9D9641EAAE667475 /* SF-Pro-Display-Regular.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1AF9F41355FA4C9A85ED078D /* iAWriterMonoS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFDD8EAB0B64C2D9799FDAA /* iAWriterMonoS-Regular.ttf */; };
+		24FE0E6E10694769870C3561 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA120CA4EEF42EBBCBD048F /* SF-Pro-Display-Light.otf */; };
+		27FC57B0945B4A79A1B7BCB3 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9373D2C33F7F4B5E89308CF7 /* SF-Pro.ttf */; };
+		29392933591247B8996F64E0 /* iAWriterDuospace-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414A7EDA54394AE4A87F1B67 /* iAWriterDuospace-Italic.ttf */; };
+		2C5ECEFF23394E19BD089750 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B96D28A98C654C13A22A4996 /* SF-Pro-Display-BlackItalic.otf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* PersonaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PersonaTests.m */; };
+		2EAE8D7AA7D94672A044C08F /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 46AB79170F114B08A98310AF /* SF-Pro-Display-BoldItalic.otf */; };
+		39FA4D79120A41968C0C3470 /* iAWriterMonoS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7523A2E8746A9A2F0D446 /* iAWriterMonoS-Italic.ttf */; };
+		3DCF9F6597F148339C80420B /* iAWriterMonoS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 541BC11ACDB5430FB7B07349 /* iAWriterMonoS-BoldItalic.ttf */; };
+		427FD6136ECA4D329FAFA575 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABC556766CE3490F8B7DDCC5 /* SF-Pro-Display-Heavy.otf */; };
+		4411B5992614C86100586B8D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		4411B59B2614C86100586B8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4411B59F2614C86100586B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		4411B5A02614C86100586B8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		445A087426F920B300EA9F5B /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 445A087326F920B300EA9F5B /* NotificationService.m */; };
+		445A087826F920B300EA9F5B /* ImageNotification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 445A087026F920B300EA9F5B /* ImageNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44D09A5D2614D7AF00976948 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44D09A5C2614D7AF00976948 /* GoogleService-Info.plist */; };
+		4570B17E2445F621813FA37E /* Pods_AbstractPersona_Persona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6254E8796A808BEE4F8C61F /* Pods_AbstractPersona_Persona.framework */; };
+		483C251AD59A47218EF9E995 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 364D9054955147EFAFBA333B /* SF-Pro-Display-UltralightItalic.otf */; };
+		52AD05FFF372424B8BF9F3C5 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 895DBB108BCC46A1A725CBA8 /* SF-Pro-Display-Bold.otf */; };
+		5557265BAFAE40799CF344A6 /* iAWriterDuospace-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89C1D24ACB7C4F7283D50414 /* iAWriterDuospace-BoldItalic.ttf */; };
+		5AEDF7F8F98E478E83BE05B6 /* iAWriterDuospace-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDEC18E772474F8F9FEA5372 /* iAWriterDuospace-Bold.ttf */; };
+		5EE28343208C4BB285D05D7D /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08D027A3E3754148999360DE /* SF-Pro-Display-Semibold.otf */; };
+		669E6F67A52347FDBB92D295 /* iAWriterQuattroS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505EA7A21D9649409CE897D5 /* iAWriterQuattroS-BoldItalic.ttf */; };
+		66B383A42E794AAD889F93FA /* iAWriterDuoS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EECF0CB1CD8490BB724FE38 /* iAWriterDuoS-Regular.ttf */; };
+		684E026BA0BE48DF857A9F0C /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 434A2D0242D64DD38756D1E5 /* SF-Pro-Display-RegularItalic.otf */; };
+		69C903DE3FD548CAAEA3EE9A /* iAWriterQuattroS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81212D1BAC2A4260B20E130D /* iAWriterQuattroS-Bold.ttf */; };
+		6D2B57A610B0B378C5DCDC42 /* Pods_AbstractPersona_Debug_Persona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBF9901FF9D9E8D54139899 /* Pods_AbstractPersona_Debug_Persona.framework */; };
+		6F0C9954299172AB0025DA68 /* MessageStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C9953299172AB0025DA68 /* MessageStructure.swift */; };
+		6F16EB6E29A046D800F15A39 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F16EB6D29A046D800F15A39 /* AppConstants.swift */; };
+		6F1B505829A45E790082088B /* CustomMessagesCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B504F29A45E790082088B /* CustomMessagesCollectionViewFlowLayout.swift */; };
+		6F1B505929A45E790082088B /* CustomMediaMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B505029A45E790082088B /* CustomMediaMessageCell.swift */; };
+		6F1B505A29A45E790082088B /* CustomCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B505129A45E790082088B /* CustomCell1.swift */; };
+		6F1B505B29A45E790082088B /* CustomTextMessageCellSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B505229A45E790082088B /* CustomTextMessageCellSizeCalculator.swift */; };
+		6F1B505C29A45E790082088B /* CustomCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B505329A45E790082088B /* CustomCellDelegate.swift */; };
+		6F1B505D29A45E790082088B /* CustomTextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B505429A45E790082088B /* CustomTextMessageCell.swift */; };
+		6F1B505E29A45E790082088B /* CustomCell1SizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B505529A45E790082088B /* CustomCell1SizeCalculator.swift */; };
+		6F1B505F29A45E790082088B /* CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B505629A45E790082088B /* CustomExtension.swift */; };
+		6F1B506029A45E790082088B /* CustomMediaMessageCellSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B505729A45E790082088B /* CustomMediaMessageCellSizeCalculator.swift */; };
+		6F2D9A8329902A01007DF9AA /* RNTMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D9A8229902A01007DF9AA /* RNTMapManager.m */; };
+		6F2D9A8529903165007DF9AA /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D9A8429903165007DF9AA /* ContainerView.swift */; };
+		6F4C562629C391B2000FB8BC /* AttachmentsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C562529C391B2000FB8BC /* AttachmentsDataSource.swift */; };
+		6F4C562829C39257000FB8BC /* PostDiscussionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C562729C39257000FB8BC /* PostDiscussionViewController.swift */; };
+		6F5AA095298CC59C00E79CE6 /* libavcodec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5AA091298CC4AE00E79CE6 /* libavcodec.xcframework */; };
+		6F5AA096298CC59C00E79CE6 /* libavcodec.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5AA091298CC4AE00E79CE6 /* libavcodec.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F5AA09A298CC64B00E79CE6 /* libswscale.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5AA099298CC64B00E79CE6 /* libswscale.xcframework */; };
+		6F5AA09B298CC64B00E79CE6 /* libswscale.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5AA099298CC64B00E79CE6 /* libswscale.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6F5DE38129B7DAF600024EAD /* CustomPostMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DE37F29B7DAF600024EAD /* CustomPostMessageCell.swift */; };
+		6F5DE38229B7DAF600024EAD /* CustomPostMessageCellSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DE38029B7DAF600024EAD /* CustomPostMessageCellSizeCalculator.swift */; };
+		6F5DE38429B7DBE600024EAD /* PersonaCommunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DE38329B7DBE600024EAD /* PersonaCommunity.swift */; };
+		6F77959E29BD830E0072F7FF /* CustomProposalMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F77959C29BD830E0072F7FF /* CustomProposalMessageCell.swift */; };
+		6F77959F29BD830E0072F7FF /* CustomProposalMessageCellSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F77959D29BD830E0072F7FF /* CustomProposalMessageCellSizeCalculator.swift */; };
+		6F7E01B7299EBCA200DE3B67 /* ChatBottomSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7E01B6299EBCA200DE3B67 /* ChatBottomSelectionViewController.swift */; };
+		6F996452299835CF000FFBD3 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F996451299835CF000FFBD3 /* PhotoViewerViewController.swift */; };
+		6F99645629996540000FFBD3 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F99645529996540000FFBD3 /* UserManager.swift */; };
+		6FA1BBB2299D7C150000C87E /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1BBB1299D7C150000C87E /* UserManager.m */; };
+		6FB8A1CA29A9501700D78B36 /* PersonaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8A1C929A9501700D78B36 /* PersonaUser.swift */; };
+		6FC841E529DA21C200EC2516 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC841E429DA21C200EC2516 /* LoadingView.swift */; };
+		6FDA3F5B2995E3E0002D017A /* UIClassHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA3F5A2995E3E0002D017A /* UIClassHelpers.swift */; };
+		6FE237612994A95300042F32 /* FirestoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE237602994A95300042F32 /* FirestoreHelper.swift */; };
+		6FE8F8E229D2623200A6D875 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8F8E129D2623200A6D875 /* Debouncer.swift */; };
+		6FEE7CCF29BA6E0A00CB36B9 /* AWSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE7CCE29BA6E0A00CB36B9 /* AWSManager.swift */; };
+		6FF22FB729B82CE200FD42C2 /* TriggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF22FB629B82CE200FD42C2 /* TriggerManager.swift */; };
+		6FF22FB929B82D1600FD42C2 /* TriggerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF22FB829B82D1600FD42C2 /* TriggerManager.m */; };
+		6FF4F64B29BA9A1100FCE7D3 /* ChatBottomMediaSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF4F64A29BA9A1000FCE7D3 /* ChatBottomMediaSelectionViewController.swift */; };
+		7C8D3D33EDBA4F60A5BA0B7E /* iAWriterDuospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C67C95C5E4478E904FBAA5 /* iAWriterDuospace-Regular.ttf */; };
+		7EE7212E48F14280ADAE0905 /* iAWriterDuoS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F426A57465D4E97901CEE7B /* iAWriterDuoS-Italic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9200F6E629A5C095003FE0FE /* FoundationInclude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200F6E529A5C095003FE0FE /* FoundationInclude.swift */; };
+		9200F6E929A819DE003FE0FE /* NativeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5AA09D298D75C200E79CE6 /* NativeChatViewController.swift */; };
+		9200F6EA29A819F2003FE0FE /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F650A652992E6B100B7F506 /* FirestoreManager.swift */; };
+		92BBCFCED70B48BDAA34C408 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 168AD13DB3634929B260A29A /* SF-Pro-Display-Black.otf */; };
+		A13AC900053D4B6FB2E2AE43 /* iAWriterMonoS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14A5DF4B79D44601BF9B8AE1 /* iAWriterMonoS-Bold.ttf */; };
+		A7980574821240F88AE99AAD /* iAWriterDuoS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5983087A4E504DBCBBF7DEC1 /* iAWriterDuoS-Bold.ttf */; };
+		AC416719F9354855BBD62DE4 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCBA2B02108F4BB8AEEE9893 /* SF-Pro-Display-LightItalic.otf */; };
+		AC5B06EA2C494AAD97F72EFA /* iAWriterQuattroS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB3F81BB0097411EB1462DC7 /* iAWriterQuattroS-Italic.ttf */; };
+		AD8D0ECD780D47AF9F3D529E /* iAWriterDuoS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E72EE4DF82F4ED2862EB32B /* iAWriterDuoS-BoldItalic.ttf */; };
+		B25BC24702A14C8B9B7649A4 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A68B118CEAAF414982318A37 /* SF-Pro-Display-Medium.otf */; };
+		B63CB2FEB733467B82F0AE7C /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 636CAACF945D49B097F8698C /* SF-Pro-Display-Thin.otf */; };
+		BE333D6E25D58E3C002E166D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE333D6D25D58E3C002E166D /* GoogleService-Info.plist */; };
+		BE333D6F25D58E3C002E166D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE333D6D25D58E3C002E166D /* GoogleService-Info.plist */; };
+		BE333D7025D58E3C002E166D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE333D6D25D58E3C002E166D /* GoogleService-Info.plist */; };
+		BE333D7125D58E3C002E166D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE333D6D25D58E3C002E166D /* GoogleService-Info.plist */; };
+		BE7569AB26A7B87E0000B77B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7569AA26A7B87E0000B77B /* CoreMedia.framework */; };
+		BE7569AD26A7B8850000B77B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7569AC26A7B8850000B77B /* CoreVideo.framework */; };
+		BE7569AF26A7B88D0000B77B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7569AE26A7B88D0000B77B /* OpenGLES.framework */; };
+		BE7569B126A7B8920000B77B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7569B026A7B8920000B77B /* AVFoundation.framework */; };
+		BE7569B326A7B8980000B77B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7569B226A7B8980000B77B /* QuartzCore.framework */; };
+		BE7569B526A7B89F0000B77B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7569B426A7B89F0000B77B /* MobileCoreServices.framework */; };
+		BED1C98426AB0B7B0046E78C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7569A626A7B5430000B77B /* CoreMedia.framework */; };
+		BED1C98526AB0B820046E78C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7569A826A7B54D0000B77B /* CoreVideo.framework */; };
+		BED1C98626AB0B870046E78C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7569AE26A7B88D0000B77B /* OpenGLES.framework */; platformFilter = ios; };
+		BED1C98826AB0B8D0046E78C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED1C98726AB0B8D0046E78C /* AVFoundation.framework */; };
+		BED1C98A26AB0B930046E78C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED1C98926AB0B930046E78C /* QuartzCore.framework */; };
+		BED1C98C26AB0B990046E78C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED1C98B26AB0B990046E78C /* MobileCoreServices.framework */; };
+		C6E34A7829B0E93C00597BB3 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 607D19A1A46B4B01A2F4E79C /* Fontisto.ttf */; };
+		C6E34A7929B0E93C00597BB3 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5AAF692462A494EAD079CC9 /* AntDesign.ttf */; };
+		C6E34A7A29B0E93C00597BB3 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87AE1F7B534249DA8E34DD26 /* Foundation.ttf */; };
+		C6E34A7B29B0E93C00597BB3 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0935153CB4434B09A5A37197 /* EvilIcons.ttf */; };
+		C6E34A7C29B0E93C00597BB3 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1341C46D9714C7FA0190610 /* Zocial.ttf */; };
+		C6E34A7D29B0E93C00597BB3 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC895913EA49838942E0EC /* Feather.ttf */; };
+		C6E34A7E29B0E93C00597BB3 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E43F4AE86DC43F58EB0B7D9 /* FontAwesome5_Solid.ttf */; };
+		C6E34A7F29B0E93C00597BB3 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A8FDAA206A0474CBD502284 /* Octicons.ttf */; };
+		C6E34A8029B0E93C00597BB3 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF616D84F5B4477FA3117DEA /* MaterialIcons.ttf */; };
+		C6E34A8129B0E93C00597BB3 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAC4AFF96504807BFC49A8A /* Ionicons.ttf */; };
+		C6E34A8229B0E93C00597BB3 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD92E2695EB2431B9DCA4242 /* FontAwesome5_Regular.ttf */; };
+		C6E34A8329B0E93C00597BB3 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E499FA0331904B6E833BF76E /* FontAwesome.ttf */; };
+		C6E34A8429B0E93C00597BB3 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44DCC3B4D9D449BEB2AA1576 /* SimpleLineIcons.ttf */; };
+		C6E34A8529B0E93C00597BB3 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4492841D2C524BCB8A1826FC /* Entypo.ttf */; };
+		C6E34A8629B0E93C00597BB3 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F420B2356EF0480583FBB948 /* MaterialCommunityIcons.ttf */; };
+		C6E34A8729B0E93C00597BB3 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17D74110A61442C9B5442EE0 /* FontAwesome5_Brands.ttf */; };
+		C6E34A8829B0E93D00597BB3 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 316BAB0A6FB747A5A77CCC54 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		C6E34A8929B0E93D00597BB3 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A68B118CEAAF414982318A37 /* SF-Pro-Display-Medium.otf */; };
+		C6E34A8A29B0E93D00597BB3 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 607D19A1A46B4B01A2F4E79C /* Fontisto.ttf */; };
+		C6E34A8B29B0E93D00597BB3 /* iAWriterDuospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C67C95C5E4478E904FBAA5 /* iAWriterDuospace-Regular.ttf */; };
+		C6E34A8C29B0E93D00597BB3 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5AAF692462A494EAD079CC9 /* AntDesign.ttf */; };
+		C6E34A8D29B0E93D00597BB3 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87AE1F7B534249DA8E34DD26 /* Foundation.ttf */; };
+		C6E34A8E29B0E93D00597BB3 /* iAWriterQuattroS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB3F81BB0097411EB1462DC7 /* iAWriterQuattroS-Italic.ttf */; };
+		C6E34A8F29B0E93D00597BB3 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0935153CB4434B09A5A37197 /* EvilIcons.ttf */; };
+		C6E34A9029B0E93D00597BB3 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9373D2C33F7F4B5E89308CF7 /* SF-Pro.ttf */; };
+		C6E34A9129B0E93D00597BB3 /* iAWriterMonoS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 541BC11ACDB5430FB7B07349 /* iAWriterMonoS-BoldItalic.ttf */; };
+		C6E34A9229B0E93D00597BB3 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1341C46D9714C7FA0190610 /* Zocial.ttf */; };
+		C6E34A9329B0E93D00597BB3 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E630D946AE1D458A8DAFEC9B /* SF-Pro-Display-MediumItalic.otf */; };
+		C6E34A9429B0E93D00597BB3 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8071A5DD9D9641EAAE667475 /* SF-Pro-Display-Regular.otf */; };
+		C6E34A9529B0E93D00597BB3 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 364D9054955147EFAFBA333B /* SF-Pro-Display-UltralightItalic.otf */; };
+		C6E34A9629B0E93D00597BB3 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC895913EA49838942E0EC /* Feather.ttf */; };
+		C6E34A9729B0E93D00597BB3 /* iAWriterDuospace-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89C1D24ACB7C4F7283D50414 /* iAWriterDuospace-BoldItalic.ttf */; };
+		C6E34A9829B0E93D00597BB3 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCBA2B02108F4BB8AEEE9893 /* SF-Pro-Display-LightItalic.otf */; };
+		C6E34A9929B0E93D00597BB3 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E43F4AE86DC43F58EB0B7D9 /* FontAwesome5_Solid.ttf */; };
+		C6E34A9A29B0E93D00597BB3 /* iAWriterQuattroS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 432D35BDA91C4CE39B393A85 /* iAWriterQuattroS-Regular.ttf */; };
+		C6E34A9B29B0E93D00597BB3 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A8FDAA206A0474CBD502284 /* Octicons.ttf */; };
+		C6E34A9C29B0E93D00597BB3 /* iAWriterQuattroS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81212D1BAC2A4260B20E130D /* iAWriterQuattroS-Bold.ttf */; };
+		C6E34A9D29B0E93D00597BB3 /* iAWriterMonoS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFDD8EAB0B64C2D9799FDAA /* iAWriterMonoS-Regular.ttf */; };
+		C6E34A9E29B0E93D00597BB3 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 168AD13DB3634929B260A29A /* SF-Pro-Display-Black.otf */; };
+		C6E34A9F29B0E93D00597BB3 /* iAWriterDuospace-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDEC18E772474F8F9FEA5372 /* iAWriterDuospace-Bold.ttf */; };
+		C6E34AA029B0E93D00597BB3 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 636CAACF945D49B097F8698C /* SF-Pro-Display-Thin.otf */; };
+		C6E34AA129B0E93D00597BB3 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 434A2D0242D64DD38756D1E5 /* SF-Pro-Display-RegularItalic.otf */; };
+		C6E34AA229B0E93D00597BB3 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08D027A3E3754148999360DE /* SF-Pro-Display-Semibold.otf */; };
+		C6E34AA329B0E93D00597BB3 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA2E4B2595DA4595B71AEA03 /* SF-Pro-Display-ThinItalic.otf */; };
+		C6E34AA429B0E93D00597BB3 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B96D28A98C654C13A22A4996 /* SF-Pro-Display-BlackItalic.otf */; };
+		C6E34AA529B0E93D00597BB3 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF616D84F5B4477FA3117DEA /* MaterialIcons.ttf */; };
+		C6E34AA629B0E93D00597BB3 /* iAWriterDuoS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F426A57465D4E97901CEE7B /* iAWriterDuoS-Italic.ttf */; };
+		C6E34AA729B0E93D00597BB3 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAC4AFF96504807BFC49A8A /* Ionicons.ttf */; };
+		C6E34AA829B0E93D00597BB3 /* iAWriterDuospace-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414A7EDA54394AE4A87F1B67 /* iAWriterDuospace-Italic.ttf */; };
+		C6E34AA929B0E93D00597BB3 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD92E2695EB2431B9DCA4242 /* FontAwesome5_Regular.ttf */; };
+		C6E34AAA29B0E93D00597BB3 /* iAWriterDuoS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5983087A4E504DBCBBF7DEC1 /* iAWriterDuoS-Bold.ttf */; };
+		C6E34AAB29B0E93D00597BB3 /* iAWriterMonoS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14A5DF4B79D44601BF9B8AE1 /* iAWriterMonoS-Bold.ttf */; };
+		C6E34AAC29B0E93D00597BB3 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA120CA4EEF42EBBCBD048F /* SF-Pro-Display-Light.otf */; };
+		C6E34AAD29B0E93D00597BB3 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E499FA0331904B6E833BF76E /* FontAwesome.ttf */; };
+		C6E34AAE29B0E93D00597BB3 /* iAWriterDuoS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E72EE4DF82F4ED2862EB32B /* iAWriterDuoS-BoldItalic.ttf */; };
+		C6E34AAF29B0E93D00597BB3 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABC556766CE3490F8B7DDCC5 /* SF-Pro-Display-Heavy.otf */; };
+		C6E34AB029B0E93D00597BB3 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44DCC3B4D9D449BEB2AA1576 /* SimpleLineIcons.ttf */; };
+		C6E34AB129B0E93D00597BB3 /* iAWriterQuattroS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505EA7A21D9649409CE897D5 /* iAWriterQuattroS-BoldItalic.ttf */; };
+		C6E34AB229B0E93D00597BB3 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 46AB79170F114B08A98310AF /* SF-Pro-Display-BoldItalic.otf */; };
+		C6E34AB329B0E93D00597BB3 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 895DBB108BCC46A1A725CBA8 /* SF-Pro-Display-Bold.otf */; };
+		C6E34AB429B0E93D00597BB3 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4492841D2C524BCB8A1826FC /* Entypo.ttf */; };
+		C6E34AB529B0E93D00597BB3 /* iAWriterMonoS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7523A2E8746A9A2F0D446 /* iAWriterMonoS-Italic.ttf */; };
+		C6E34AB629B0E93D00597BB3 /* iAWriterDuoS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EECF0CB1CD8490BB724FE38 /* iAWriterDuoS-Regular.ttf */; };
+		C6E34AB729B0E93D00597BB3 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C94B8201372415BBE126BE4 /* SF-Pro-Display-Ultralight.otf */; };
+		C6E34AB829B0E93D00597BB3 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 469F5FF00F074730A2B96D02 /* SF-Pro-Display-HeavyItalic.otf */; };
+		C6E34AB929B0E93D00597BB3 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F420B2356EF0480583FBB948 /* MaterialCommunityIcons.ttf */; };
+		C6E34ABA29B0E93D00597BB3 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17D74110A61442C9B5442EE0 /* FontAwesome5_Brands.ttf */; };
+		C6E34ABB29B0E93F00597BB3 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 316BAB0A6FB747A5A77CCC54 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		C6E34ABC29B0E93F00597BB3 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A68B118CEAAF414982318A37 /* SF-Pro-Display-Medium.otf */; };
+		C6E34ABD29B0E93F00597BB3 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 607D19A1A46B4B01A2F4E79C /* Fontisto.ttf */; };
+		C6E34ABE29B0E93F00597BB3 /* iAWriterDuospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47C67C95C5E4478E904FBAA5 /* iAWriterDuospace-Regular.ttf */; };
+		C6E34ABF29B0E93F00597BB3 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5AAF692462A494EAD079CC9 /* AntDesign.ttf */; };
+		C6E34AC029B0E93F00597BB3 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87AE1F7B534249DA8E34DD26 /* Foundation.ttf */; };
+		C6E34AC129B0E93F00597BB3 /* iAWriterQuattroS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB3F81BB0097411EB1462DC7 /* iAWriterQuattroS-Italic.ttf */; };
+		C6E34AC229B0E93F00597BB3 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0935153CB4434B09A5A37197 /* EvilIcons.ttf */; };
+		C6E34AC329B0E93F00597BB3 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9373D2C33F7F4B5E89308CF7 /* SF-Pro.ttf */; };
+		C6E34AC429B0E93F00597BB3 /* iAWriterMonoS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 541BC11ACDB5430FB7B07349 /* iAWriterMonoS-BoldItalic.ttf */; };
+		C6E34AC529B0E93F00597BB3 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1341C46D9714C7FA0190610 /* Zocial.ttf */; };
+		C6E34AC629B0E93F00597BB3 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E630D946AE1D458A8DAFEC9B /* SF-Pro-Display-MediumItalic.otf */; };
+		C6E34AC729B0E93F00597BB3 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8071A5DD9D9641EAAE667475 /* SF-Pro-Display-Regular.otf */; };
+		C6E34AC829B0E93F00597BB3 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 364D9054955147EFAFBA333B /* SF-Pro-Display-UltralightItalic.otf */; };
+		C6E34AC929B0E93F00597BB3 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FDC895913EA49838942E0EC /* Feather.ttf */; };
+		C6E34ACA29B0E93F00597BB3 /* iAWriterDuospace-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89C1D24ACB7C4F7283D50414 /* iAWriterDuospace-BoldItalic.ttf */; };
+		C6E34ACB29B0E93F00597BB3 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCBA2B02108F4BB8AEEE9893 /* SF-Pro-Display-LightItalic.otf */; };
+		C6E34ACC29B0E93F00597BB3 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E43F4AE86DC43F58EB0B7D9 /* FontAwesome5_Solid.ttf */; };
+		C6E34ACD29B0E93F00597BB3 /* iAWriterQuattroS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 432D35BDA91C4CE39B393A85 /* iAWriterQuattroS-Regular.ttf */; };
+		C6E34ACE29B0E93F00597BB3 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A8FDAA206A0474CBD502284 /* Octicons.ttf */; };
+		C6E34ACF29B0E93F00597BB3 /* iAWriterQuattroS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81212D1BAC2A4260B20E130D /* iAWriterQuattroS-Bold.ttf */; };
+		C6E34AD029B0E93F00597BB3 /* iAWriterMonoS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADFDD8EAB0B64C2D9799FDAA /* iAWriterMonoS-Regular.ttf */; };
+		C6E34AD129B0E93F00597BB3 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 168AD13DB3634929B260A29A /* SF-Pro-Display-Black.otf */; };
+		C6E34AD229B0E93F00597BB3 /* iAWriterDuospace-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDEC18E772474F8F9FEA5372 /* iAWriterDuospace-Bold.ttf */; };
+		C6E34AD329B0E93F00597BB3 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 636CAACF945D49B097F8698C /* SF-Pro-Display-Thin.otf */; };
+		C6E34AD429B0E93F00597BB3 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 434A2D0242D64DD38756D1E5 /* SF-Pro-Display-RegularItalic.otf */; };
+		C6E34AD529B0E93F00597BB3 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08D027A3E3754148999360DE /* SF-Pro-Display-Semibold.otf */; };
+		C6E34AD629B0E93F00597BB3 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA2E4B2595DA4595B71AEA03 /* SF-Pro-Display-ThinItalic.otf */; };
+		C6E34AD729B0E93F00597BB3 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B96D28A98C654C13A22A4996 /* SF-Pro-Display-BlackItalic.otf */; };
+		C6E34AD829B0E93F00597BB3 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF616D84F5B4477FA3117DEA /* MaterialIcons.ttf */; };
+		C6E34AD929B0E93F00597BB3 /* iAWriterDuoS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F426A57465D4E97901CEE7B /* iAWriterDuoS-Italic.ttf */; };
+		C6E34ADA29B0E93F00597BB3 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EAC4AFF96504807BFC49A8A /* Ionicons.ttf */; };
+		C6E34ADB29B0E93F00597BB3 /* iAWriterDuospace-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414A7EDA54394AE4A87F1B67 /* iAWriterDuospace-Italic.ttf */; };
+		C6E34ADC29B0E93F00597BB3 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD92E2695EB2431B9DCA4242 /* FontAwesome5_Regular.ttf */; };
+		C6E34ADD29B0E93F00597BB3 /* iAWriterDuoS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5983087A4E504DBCBBF7DEC1 /* iAWriterDuoS-Bold.ttf */; };
+		C6E34ADE29B0E93F00597BB3 /* iAWriterMonoS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14A5DF4B79D44601BF9B8AE1 /* iAWriterMonoS-Bold.ttf */; };
+		C6E34ADF29B0E93F00597BB3 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA120CA4EEF42EBBCBD048F /* SF-Pro-Display-Light.otf */; };
+		C6E34AE029B0E93F00597BB3 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E499FA0331904B6E833BF76E /* FontAwesome.ttf */; };
+		C6E34AE129B0E93F00597BB3 /* iAWriterDuoS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E72EE4DF82F4ED2862EB32B /* iAWriterDuoS-BoldItalic.ttf */; };
+		C6E34AE229B0E93F00597BB3 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABC556766CE3490F8B7DDCC5 /* SF-Pro-Display-Heavy.otf */; };
+		C6E34AE329B0E93F00597BB3 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44DCC3B4D9D449BEB2AA1576 /* SimpleLineIcons.ttf */; };
+		C6E34AE429B0E93F00597BB3 /* iAWriterQuattroS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 505EA7A21D9649409CE897D5 /* iAWriterQuattroS-BoldItalic.ttf */; };
+		C6E34AE529B0E93F00597BB3 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 46AB79170F114B08A98310AF /* SF-Pro-Display-BoldItalic.otf */; };
+		C6E34AE629B0E93F00597BB3 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 895DBB108BCC46A1A725CBA8 /* SF-Pro-Display-Bold.otf */; };
+		C6E34AE729B0E93F00597BB3 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4492841D2C524BCB8A1826FC /* Entypo.ttf */; };
+		C6E34AE829B0E93F00597BB3 /* iAWriterMonoS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C7523A2E8746A9A2F0D446 /* iAWriterMonoS-Italic.ttf */; };
+		C6E34AE929B0E93F00597BB3 /* iAWriterDuoS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EECF0CB1CD8490BB724FE38 /* iAWriterDuoS-Regular.ttf */; };
+		C6E34AEA29B0E93F00597BB3 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C94B8201372415BBE126BE4 /* SF-Pro-Display-Ultralight.otf */; };
+		C6E34AEB29B0E93F00597BB3 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 469F5FF00F074730A2B96D02 /* SF-Pro-Display-HeavyItalic.otf */; };
+		C6E34AEC29B0E93F00597BB3 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F420B2356EF0480583FBB948 /* MaterialCommunityIcons.ttf */; };
+		C6E34AED29B0E93F00597BB3 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17D74110A61442C9B5442EE0 /* FontAwesome5_Brands.ttf */; };
+		C6E34AEE29B0FE2E00597BB3 /* FoundationInclude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200F6E529A5C095003FE0FE /* FoundationInclude.swift */; };
+		D6EE01476EDB4BEE9854E13E /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 469F5FF00F074730A2B96D02 /* SF-Pro-Display-HeavyItalic.otf */; };
+		D85B54D089BDC65753F425BA /* Pods_AbstractPersona_ImageNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB51196FEADE500CC70523EA /* Pods_AbstractPersona_ImageNotification.framework */; };
+		DA2A5489AA27418EBE930FA9 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9C94B8201372415BBE126BE4 /* SF-Pro-Display-Ultralight.otf */; };
+		E5DB683098F343BCA24CD817 /* iAWriterQuattroS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 432D35BDA91C4CE39B393A85 /* iAWriterQuattroS-Regular.ttf */; };
+		E6487F9AF38C2CB05271DDB1 /* Pods_AbstractPersona_PersonaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B438BFB3C95B4F0D3CC4B84 /* Pods_AbstractPersona_PersonaTests.framework */; };
+		F1BCD8DD26534A45B00E51A4 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E630D946AE1D458A8DAFEC9B /* SF-Pro-Display-MediumItalic.otf */; };
+		FF817F4A264B44E2B4135754 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 316BAB0A6FB747A5A77CCC54 /* SF-Pro-Display-SemiboldItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Persona;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Persona-tvOS";
+		};
+		445A087626F920B300EA9F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445A086F26F920B300EA9F5B;
+			remoteInfo = ImageNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		445A087A26F920B300EA9F5B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				445A087826F920B300EA9F5B /* ImageNotification.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7569B826A7B8A40000B77B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED1C98F26AB0B9F0046E78C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6F5AA09B298CC64B00E79CE6 /* libswscale.xcframework in Embed Frameworks */,
+				6F5AA096298CC59C00E79CE6 /* libavcodec.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* PersonaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* PersonaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonaTests.m; sourceTree = "<group>"; };
+		08D027A3E3754148999360DE /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Semibold.otf"; path = "../assets/fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		0935153CB4434B09A5A37197 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		111D05B7D34EDFE92CAE7EB8 /* Pods-AbstractPersona-PersonaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbstractPersona-PersonaTests.debug.xcconfig"; path = "Target Support Files/Pods-AbstractPersona-PersonaTests/Pods-AbstractPersona-PersonaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Persona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Persona/AppDelegate.h; sourceTree = "<group>"; tabWidth = 4; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.mm; path = Persona/AppDelegate.mm; sourceTree = "<group>"; tabWidth = 4; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Persona/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Persona/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Persona/main.m; sourceTree = "<group>"; };
+		14A5DF4B79D44601BF9B8AE1 /* iAWriterMonoS-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterMonoS-Bold.ttf"; path = "../assets/fonts/iAWriterMonoS-Bold.ttf"; sourceTree = "<group>"; };
+		168AD13DB3634929B260A29A /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Black.otf"; path = "../assets/fonts/SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		17D74110A61442C9B5442EE0 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		1B2F1424F50D8B72D879532F /* Pods-AbstractPersona-Debug Persona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbstractPersona-Debug Persona.release.xcconfig"; path = "Target Support Files/Pods-AbstractPersona-Debug Persona/Pods-AbstractPersona-Debug Persona.release.xcconfig"; sourceTree = "<group>"; };
+		1F426A57465D4E97901CEE7B /* iAWriterDuoS-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterDuoS-Italic.ttf"; path = "../assets/fonts/iAWriterDuoS-Italic.ttf"; sourceTree = "<group>"; };
+		1FDC895913EA49838942E0EC /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Persona-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persona-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Persona-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persona-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		316BAB0A6FB747A5A77CCC54 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-SemiboldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		364D9054955147EFAFBA333B /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-UltralightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		3EAC4AFF96504807BFC49A8A /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		414A7EDA54394AE4A87F1B67 /* iAWriterDuospace-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterDuospace-Italic.ttf"; path = "../assets/fonts/iAWriterDuospace-Italic.ttf"; sourceTree = "<group>"; };
+		432D35BDA91C4CE39B393A85 /* iAWriterQuattroS-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterQuattroS-Regular.ttf"; path = "../assets/fonts/iAWriterQuattroS-Regular.ttf"; sourceTree = "<group>"; };
+		434A2D0242D64DD38756D1E5 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-RegularItalic.otf"; path = "../assets/fonts/SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		4411B5AB2614C86200586B8D /* Debug Persona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debug Persona.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		445A087026F920B300EA9F5B /* ImageNotification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ImageNotification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		445A087226F920B300EA9F5B /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		445A087326F920B300EA9F5B /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		445A087526F920B300EA9F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445A087926F920B300EA9F5B /* ImageNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageNotification.entitlements; sourceTree = "<group>"; };
+		4492841D2C524BCB8A1826FC /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		44D09A5C2614D7AF00976948 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44DCC3B4D9D449BEB2AA1576 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		469F5FF00F074730A2B96D02 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-HeavyItalic.otf"; path = "../assets/fonts/SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		46AB79170F114B08A98310AF /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-BoldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		47C67C95C5E4478E904FBAA5 /* iAWriterDuospace-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterDuospace-Regular.ttf"; path = "../assets/fonts/iAWriterDuospace-Regular.ttf"; sourceTree = "<group>"; };
+		50359771965AA11DC1DF1E72 /* Pods-AbstractPersona-ImageNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbstractPersona-ImageNotification.debug.xcconfig"; path = "Target Support Files/Pods-AbstractPersona-ImageNotification/Pods-AbstractPersona-ImageNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		505EA7A21D9649409CE897D5 /* iAWriterQuattroS-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterQuattroS-BoldItalic.ttf"; path = "../assets/fonts/iAWriterQuattroS-BoldItalic.ttf"; sourceTree = "<group>"; };
+		541BC11ACDB5430FB7B07349 /* iAWriterMonoS-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterMonoS-BoldItalic.ttf"; path = "../assets/fonts/iAWriterMonoS-BoldItalic.ttf"; sourceTree = "<group>"; };
+		54AED5444D275B4F085C8746 /* Pods-AbstractPersona-ImageNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbstractPersona-ImageNotification.release.xcconfig"; path = "Target Support Files/Pods-AbstractPersona-ImageNotification/Pods-AbstractPersona-ImageNotification.release.xcconfig"; sourceTree = "<group>"; };
+		5983087A4E504DBCBBF7DEC1 /* iAWriterDuoS-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterDuoS-Bold.ttf"; path = "../assets/fonts/iAWriterDuoS-Bold.ttf"; sourceTree = "<group>"; };
+		5CA120CA4EEF42EBBCBD048F /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Light.otf"; path = "../assets/fonts/SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		607D19A1A46B4B01A2F4E79C /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		636CAACF945D49B097F8698C /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Thin.otf"; path = "../assets/fonts/SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		6A8FDAA206A0474CBD502284 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		6E531C5598F35C97184B0FD2 /* Pods-AbstractPersona-Persona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbstractPersona-Persona.release.xcconfig"; path = "Target Support Files/Pods-AbstractPersona-Persona/Pods-AbstractPersona-Persona.release.xcconfig"; sourceTree = "<group>"; };
+		6F0C9953299172AB0025DA68 /* MessageStructure.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = MessageStructure.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F16EB6D29A046D800F15A39 /* AppConstants.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F1B504F29A45E790082088B /* CustomMessagesCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomMessagesCollectionViewFlowLayout.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F1B505029A45E790082088B /* CustomMediaMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomMediaMessageCell.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F1B505129A45E790082088B /* CustomCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomCell1.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F1B505229A45E790082088B /* CustomTextMessageCellSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomTextMessageCellSizeCalculator.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F1B505329A45E790082088B /* CustomCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomCellDelegate.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F1B505429A45E790082088B /* CustomTextMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomTextMessageCell.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F1B505529A45E790082088B /* CustomCell1SizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomCell1SizeCalculator.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F1B505629A45E790082088B /* CustomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomExtension.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F1B505729A45E790082088B /* CustomMediaMessageCellSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMediaMessageCellSizeCalculator.swift; sourceTree = "<group>"; };
+		6F2D9A8229902A01007DF9AA /* RNTMapManager.m */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = RNTMapManager.m; sourceTree = "<group>"; tabWidth = 4; };
+		6F2D9A8429903165007DF9AA /* ContainerView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F4C562529C391B2000FB8BC /* AttachmentsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsDataSource.swift; sourceTree = "<group>"; };
+		6F4C562729C39257000FB8BC /* PostDiscussionViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = PostDiscussionViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F5AA091298CC4AE00E79CE6 /* libavcodec.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavcodec.xcframework; path = "Pods/ffmpeg-kit-ios-full-gpl/libavcodec.xcframework"; sourceTree = "<group>"; };
+		6F5AA093298CC52C00E79CE6 /* libavformat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavformat.xcframework; path = "Pods/ffmpeg-kit-ios-full-gpl/libavformat.xcframework"; sourceTree = "<group>"; };
+		6F5AA099298CC64B00E79CE6 /* libswscale.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libswscale.xcframework; path = "Pods/ffmpeg-kit-ios-full-gpl/libswscale.xcframework"; sourceTree = "<group>"; };
+		6F5AA09D298D75C200E79CE6 /* NativeChatViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = NativeChatViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F5DE37F29B7DAF600024EAD /* CustomPostMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomPostMessageCell.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F5DE38029B7DAF600024EAD /* CustomPostMessageCellSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomPostMessageCellSizeCalculator.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F5DE38329B7DBE600024EAD /* PersonaCommunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaCommunity.swift; sourceTree = "<group>"; };
+		6F650A652992E6B100B7F506 /* FirestoreManager.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F77959C29BD830E0072F7FF /* CustomProposalMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = CustomProposalMessageCell.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F77959D29BD830E0072F7FF /* CustomProposalMessageCellSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProposalMessageCellSizeCalculator.swift; sourceTree = "<group>"; };
+		6F7E01B6299EBCA200DE3B67 /* ChatBottomSelectionViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ChatBottomSelectionViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F996451299835CF000FFBD3 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6F99645529996540000FFBD3 /* UserManager.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6FA1BBB1299D7C150000C87E /* UserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		6FB8A1C929A9501700D78B36 /* PersonaUser.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = PersonaUser.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6FC841E429DA21C200EC2516 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		6FDA3F5A2995E3E0002D017A /* UIClassHelpers.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = UIClassHelpers.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6FE237602994A95300042F32 /* FirestoreHelper.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = FirestoreHelper.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6FE8F8E129D2623200A6D875 /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		6FEE7CCE29BA6E0A00CB36B9 /* AWSManager.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AWSManager.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6FF22FB629B82CE200FD42C2 /* TriggerManager.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = TriggerManager.swift; sourceTree = "<group>"; tabWidth = 4; };
+		6FF22FB829B82D1600FD42C2 /* TriggerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerManager.m; sourceTree = "<group>"; };
+		6FF4F64A29BA9A1000FCE7D3 /* ChatBottomMediaSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ChatBottomMediaSelectionViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		73494EFCFDAF652A89DE6B6B /* Pods-AbstractPersona-PersonaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbstractPersona-PersonaTests.release.xcconfig"; path = "Target Support Files/Pods-AbstractPersona-PersonaTests/Pods-AbstractPersona-PersonaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E43F4AE86DC43F58EB0B7D9 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		7EECF0CB1CD8490BB724FE38 /* iAWriterDuoS-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterDuoS-Regular.ttf"; path = "../assets/fonts/iAWriterDuoS-Regular.ttf"; sourceTree = "<group>"; };
+		8071A5DD9D9641EAAE667475 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Regular.otf"; path = "../assets/fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		81212D1BAC2A4260B20E130D /* iAWriterQuattroS-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterQuattroS-Bold.ttf"; path = "../assets/fonts/iAWriterQuattroS-Bold.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Persona/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87AE1F7B534249DA8E34DD26 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		895DBB108BCC46A1A725CBA8 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Bold.otf"; path = "../assets/fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		89C1D24ACB7C4F7283D50414 /* iAWriterDuospace-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterDuospace-BoldItalic.ttf"; path = "../assets/fonts/iAWriterDuospace-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8B438BFB3C95B4F0D3CC4B84 /* Pods_AbstractPersona_PersonaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbstractPersona_PersonaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBF9901FF9D9E8D54139899 /* Pods_AbstractPersona_Debug_Persona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbstractPersona_Debug_Persona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9200F6E529A5C095003FE0FE /* FoundationInclude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationInclude.swift; sourceTree = "<group>"; };
+		929424052958283B00ED0CA1 /* Persona-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Persona-Bridging-Header.h"; sourceTree = "<group>"; };
+		92BA2D5C2606C4E3005828FE /* AgoraCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraCore.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraCore.xcframework; sourceTree = "<group>"; };
+		92BA2D5D2606C4E3005828FE /* AgoraDav1dExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraDav1dExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraDav1dExtension.xcframework; sourceTree = "<group>"; };
+		92BA2D5E2606C4E3005828FE /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Agorafdkaac.xcframework; path = Pods/AgoraRtcEngine_iOS/Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		92BA2D5F2606C4E3005828FE /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Agoraffmpeg.xcframework; path = Pods/AgoraRtcEngine_iOS/Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		92BA2D602606C4E3005828FE /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraRtcKit.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		92BA2D612606C4E3005828FE /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraSoundTouch.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		9373D2C33F7F4B5E89308CF7 /* SF-Pro.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro.ttf"; path = "../assets/fonts/SF-Pro.ttf"; sourceTree = "<group>"; };
+		9C94B8201372415BBE126BE4 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Ultralight.otf"; path = "../assets/fonts/SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		9E72EE4DF82F4ED2862EB32B /* iAWriterDuoS-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterDuoS-BoldItalic.ttf"; path = "../assets/fonts/iAWriterDuoS-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A60970D4C0AB11F1645D8758 /* Pods-AbstractPersona-Debug Persona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbstractPersona-Debug Persona.debug.xcconfig"; path = "Target Support Files/Pods-AbstractPersona-Debug Persona/Pods-AbstractPersona-Debug Persona.debug.xcconfig"; sourceTree = "<group>"; };
+		A68B118CEAAF414982318A37 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Medium.otf"; path = "../assets/fonts/SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		ABC556766CE3490F8B7DDCC5 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Heavy.otf"; path = "../assets/fonts/SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		ADFDD8EAB0B64C2D9799FDAA /* iAWriterMonoS-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterMonoS-Regular.ttf"; path = "../assets/fonts/iAWriterMonoS-Regular.ttf"; sourceTree = "<group>"; };
+		B1341C46D9714C7FA0190610 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		B96D28A98C654C13A22A4996 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-BlackItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		BDEC18E772474F8F9FEA5372 /* iAWriterDuospace-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterDuospace-Bold.ttf"; path = "../assets/fonts/iAWriterDuospace-Bold.ttf"; sourceTree = "<group>"; };
+		BE333D6D25D58E3C002E166D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BE7569A626A7B5430000B77B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		BE7569A826A7B54D0000B77B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		BE7569AA26A7B87E0000B77B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BE7569AC26A7B8850000B77B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		BE7569AE26A7B88D0000B77B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BE7569B026A7B8920000B77B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BE7569B226A7B8980000B77B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE7569B426A7B89F0000B77B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BE9D4F3C25D42C93009670F5 /* Persona.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Persona.entitlements; path = Persona/Persona.entitlements; sourceTree = "<group>"; };
+		BED1C98726AB0B8D0046E78C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		BED1C98926AB0B930046E78C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BED1C98B26AB0B990046E78C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/iOSSupport/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		C5AAF692462A494EAD079CC9 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		CB51196FEADE500CC70523EA /* Pods_AbstractPersona_ImageNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbstractPersona_ImageNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBA2B02108F4BB8AEEE9893 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-LightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		CD92E2695EB2431B9DCA4242 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		DF616D84F5B4477FA3117DEA /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		E1C7523A2E8746A9A2F0D446 /* iAWriterMonoS-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterMonoS-Italic.ttf"; path = "../assets/fonts/iAWriterMonoS-Italic.ttf"; sourceTree = "<group>"; };
+		E499FA0331904B6E833BF76E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		E6254E8796A808BEE4F8C61F /* Pods_AbstractPersona_Persona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbstractPersona_Persona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E630D946AE1D458A8DAFEC9B /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-MediumItalic.otf"; path = "../assets/fonts/SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		EB3F81BB0097411EB1462DC7 /* iAWriterQuattroS-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "iAWriterQuattroS-Italic.ttf"; path = "../assets/fonts/iAWriterQuattroS-Italic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F420B2356EF0480583FBB948 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		F6E925828EA7FF6187FF910E /* Pods-AbstractPersona-Persona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbstractPersona-Persona.debug.xcconfig"; path = "Target Support Files/Pods-AbstractPersona-Persona/Pods-AbstractPersona-Persona.debug.xcconfig"; sourceTree = "<group>"; };
+		FA2E4B2595DA4595B71AEA03 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-ThinItalic.otf"; path = "../assets/fonts/SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6487F9AF38C2CB05271DDB1 /* Pods_AbstractPersona_PersonaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED1C98426AB0B7B0046E78C /* CoreMedia.framework in Frameworks */,
+				6F5AA095298CC59C00E79CE6 /* libavcodec.xcframework in Frameworks */,
+				BED1C98C26AB0B990046E78C /* MobileCoreServices.framework in Frameworks */,
+				BED1C98A26AB0B930046E78C /* QuartzCore.framework in Frameworks */,
+				BED1C98826AB0B8D0046E78C /* AVFoundation.framework in Frameworks */,
+				BED1C98526AB0B820046E78C /* CoreVideo.framework in Frameworks */,
+				BED1C98626AB0B870046E78C /* OpenGLES.framework in Frameworks */,
+				6F5AA09A298CC64B00E79CE6 /* libswscale.xcframework in Frameworks */,
+				4570B17E2445F621813FA37E /* Pods_AbstractPersona_Persona.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4411B59C2614C86100586B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7569AB26A7B87E0000B77B /* CoreMedia.framework in Frameworks */,
+				BE7569B526A7B89F0000B77B /* MobileCoreServices.framework in Frameworks */,
+				BE7569B326A7B8980000B77B /* QuartzCore.framework in Frameworks */,
+				BE7569B126A7B8920000B77B /* AVFoundation.framework in Frameworks */,
+				BE7569AD26A7B8850000B77B /* CoreVideo.framework in Frameworks */,
+				BE7569AF26A7B88D0000B77B /* OpenGLES.framework in Frameworks */,
+				6D2B57A610B0B378C5DCDC42 /* Pods_AbstractPersona_Debug_Persona.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445A086D26F920B300EA9F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85B54D089BDC65753F425BA /* Pods_AbstractPersona_ImageNotification.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* PersonaTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* PersonaTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = PersonaTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Persona */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D4F3C25D42C93009670F5 /* Persona.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				929424052958283B00ED0CA1 /* Persona-Bridging-Header.h */,
+				6F5AA09C298D759300E79CE6 /* iOS Native Chat */,
+			);
+			name = Persona;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F5AA099298CC64B00E79CE6 /* libswscale.xcframework */,
+				6F5AA093298CC52C00E79CE6 /* libavformat.xcframework */,
+				6F5AA091298CC4AE00E79CE6 /* libavcodec.xcframework */,
+				BED1C98B26AB0B990046E78C /* MobileCoreServices.framework */,
+				BED1C98926AB0B930046E78C /* QuartzCore.framework */,
+				BED1C98726AB0B8D0046E78C /* AVFoundation.framework */,
+				BE7569B426A7B89F0000B77B /* MobileCoreServices.framework */,
+				BE7569B226A7B8980000B77B /* QuartzCore.framework */,
+				BE7569B026A7B8920000B77B /* AVFoundation.framework */,
+				BE7569AE26A7B88D0000B77B /* OpenGLES.framework */,
+				BE7569AC26A7B8850000B77B /* CoreVideo.framework */,
+				BE7569AA26A7B87E0000B77B /* CoreMedia.framework */,
+				BE7569A826A7B54D0000B77B /* CoreVideo.framework */,
+				BE7569A626A7B5430000B77B /* CoreMedia.framework */,
+				92BA2D5C2606C4E3005828FE /* AgoraCore.xcframework */,
+				92BA2D5D2606C4E3005828FE /* AgoraDav1dExtension.xcframework */,
+				92BA2D5E2606C4E3005828FE /* Agorafdkaac.xcframework */,
+				92BA2D5F2606C4E3005828FE /* Agoraffmpeg.xcframework */,
+				92BA2D602606C4E3005828FE /* AgoraRtcKit.xcframework */,
+				92BA2D612606C4E3005828FE /* AgoraSoundTouch.xcframework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				8FBF9901FF9D9E8D54139899 /* Pods_AbstractPersona_Debug_Persona.framework */,
+				CB51196FEADE500CC70523EA /* Pods_AbstractPersona_ImageNotification.framework */,
+				E6254E8796A808BEE4F8C61F /* Pods_AbstractPersona_Persona.framework */,
+				8B438BFB3C95B4F0D3CC4B84 /* Pods_AbstractPersona_PersonaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		445A087126F920B300EA9F5B /* ImageNotification */ = {
+			isa = PBXGroup;
+			children = (
+				445A087926F920B300EA9F5B /* ImageNotification.entitlements */,
+				445A087226F920B300EA9F5B /* NotificationService.h */,
+				445A087326F920B300EA9F5B /* NotificationService.m */,
+				445A087526F920B300EA9F5B /* Info.plist */,
+			);
+			path = ImageNotification;
+			sourceTree = "<group>";
+		};
+		44D09A5A2614D72200976948 /* PersonaGoogleServiceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BE333D6D25D58E3C002E166D /* GoogleService-Info.plist */,
+			);
+			path = PersonaGoogleServiceInfo;
+			sourceTree = "<group>";
+		};
+		44D09A5B2614D73300976948 /* DebugPersonaGoogleServiceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				44D09A5C2614D7AF00976948 /* GoogleService-Info.plist */,
+			);
+			path = DebugPersonaGoogleServiceInfo;
+			sourceTree = "<group>";
+		};
+		5F5488AA81CF475D87975935 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5AAF692462A494EAD079CC9 /* AntDesign.ttf */,
+				4492841D2C524BCB8A1826FC /* Entypo.ttf */,
+				0935153CB4434B09A5A37197 /* EvilIcons.ttf */,
+				1FDC895913EA49838942E0EC /* Feather.ttf */,
+				E499FA0331904B6E833BF76E /* FontAwesome.ttf */,
+				17D74110A61442C9B5442EE0 /* FontAwesome5_Brands.ttf */,
+				CD92E2695EB2431B9DCA4242 /* FontAwesome5_Regular.ttf */,
+				7E43F4AE86DC43F58EB0B7D9 /* FontAwesome5_Solid.ttf */,
+				607D19A1A46B4B01A2F4E79C /* Fontisto.ttf */,
+				87AE1F7B534249DA8E34DD26 /* Foundation.ttf */,
+				3EAC4AFF96504807BFC49A8A /* Ionicons.ttf */,
+				F420B2356EF0480583FBB948 /* MaterialCommunityIcons.ttf */,
+				DF616D84F5B4477FA3117DEA /* MaterialIcons.ttf */,
+				6A8FDAA206A0474CBD502284 /* Octicons.ttf */,
+				44DCC3B4D9D449BEB2AA1576 /* SimpleLineIcons.ttf */,
+				B1341C46D9714C7FA0190610 /* Zocial.ttf */,
+				81212D1BAC2A4260B20E130D /* iAWriterQuattroS-Bold.ttf */,
+				505EA7A21D9649409CE897D5 /* iAWriterQuattroS-BoldItalic.ttf */,
+				EB3F81BB0097411EB1462DC7 /* iAWriterQuattroS-Italic.ttf */,
+				432D35BDA91C4CE39B393A85 /* iAWriterQuattroS-Regular.ttf */,
+				5983087A4E504DBCBBF7DEC1 /* iAWriterDuoS-Bold.ttf */,
+				9E72EE4DF82F4ED2862EB32B /* iAWriterDuoS-BoldItalic.ttf */,
+				1F426A57465D4E97901CEE7B /* iAWriterDuoS-Italic.ttf */,
+				7EECF0CB1CD8490BB724FE38 /* iAWriterDuoS-Regular.ttf */,
+				BDEC18E772474F8F9FEA5372 /* iAWriterDuospace-Bold.ttf */,
+				89C1D24ACB7C4F7283D50414 /* iAWriterDuospace-BoldItalic.ttf */,
+				414A7EDA54394AE4A87F1B67 /* iAWriterDuospace-Italic.ttf */,
+				47C67C95C5E4478E904FBAA5 /* iAWriterDuospace-Regular.ttf */,
+				14A5DF4B79D44601BF9B8AE1 /* iAWriterMonoS-Bold.ttf */,
+				541BC11ACDB5430FB7B07349 /* iAWriterMonoS-BoldItalic.ttf */,
+				E1C7523A2E8746A9A2F0D446 /* iAWriterMonoS-Italic.ttf */,
+				ADFDD8EAB0B64C2D9799FDAA /* iAWriterMonoS-Regular.ttf */,
+				168AD13DB3634929B260A29A /* SF-Pro-Display-Black.otf */,
+				B96D28A98C654C13A22A4996 /* SF-Pro-Display-BlackItalic.otf */,
+				895DBB108BCC46A1A725CBA8 /* SF-Pro-Display-Bold.otf */,
+				46AB79170F114B08A98310AF /* SF-Pro-Display-BoldItalic.otf */,
+				ABC556766CE3490F8B7DDCC5 /* SF-Pro-Display-Heavy.otf */,
+				469F5FF00F074730A2B96D02 /* SF-Pro-Display-HeavyItalic.otf */,
+				5CA120CA4EEF42EBBCBD048F /* SF-Pro-Display-Light.otf */,
+				CCBA2B02108F4BB8AEEE9893 /* SF-Pro-Display-LightItalic.otf */,
+				A68B118CEAAF414982318A37 /* SF-Pro-Display-Medium.otf */,
+				E630D946AE1D458A8DAFEC9B /* SF-Pro-Display-MediumItalic.otf */,
+				8071A5DD9D9641EAAE667475 /* SF-Pro-Display-Regular.otf */,
+				434A2D0242D64DD38756D1E5 /* SF-Pro-Display-RegularItalic.otf */,
+				08D027A3E3754148999360DE /* SF-Pro-Display-Semibold.otf */,
+				316BAB0A6FB747A5A77CCC54 /* SF-Pro-Display-SemiboldItalic.otf */,
+				636CAACF945D49B097F8698C /* SF-Pro-Display-Thin.otf */,
+				FA2E4B2595DA4595B71AEA03 /* SF-Pro-Display-ThinItalic.otf */,
+				9C94B8201372415BBE126BE4 /* SF-Pro-Display-Ultralight.otf */,
+				364D9054955147EFAFBA333B /* SF-Pro-Display-UltralightItalic.otf */,
+				9373D2C33F7F4B5E89308CF7 /* SF-Pro.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6F49EAEE29C39DB2003C45E2 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				6F650A652992E6B100B7F506 /* FirestoreManager.swift */,
+				6FE237602994A95300042F32 /* FirestoreHelper.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		6F5AA09C298D759300E79CE6 /* iOS Native Chat */ = {
+			isa = PBXGroup;
+			children = (
+				6F650A632992E63100B7F506 /* View Controllers */,
+				6F650A642992E64A00B7F506 /* Models */,
+				6F7E01B8299EBF5500DE3B67 /* Views */,
+				6F650A622992E61000B7F506 /* RN connected classes */,
+			);
+			path = "iOS Native Chat";
+			sourceTree = "<group>";
+		};
+		6F650A622992E61000B7F506 /* RN connected classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F2D9A8429903165007DF9AA /* ContainerView.swift */,
+				6F2D9A8229902A01007DF9AA /* RNTMapManager.m */,
+			);
+			path = "RN connected classes";
+			sourceTree = "<group>";
+		};
+		6F650A632992E63100B7F506 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F5AA09D298D75C200E79CE6 /* NativeChatViewController.swift */,
+				6FF4F64A29BA9A1000FCE7D3 /* ChatBottomMediaSelectionViewController.swift */,
+				6F4C562729C39257000FB8BC /* PostDiscussionViewController.swift */,
+				6F7E01B6299EBCA200DE3B67 /* ChatBottomSelectionViewController.swift */,
+				6F996451299835CF000FFBD3 /* PhotoViewerViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6F650A642992E64A00B7F506 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F16EB6D29A046D800F15A39 /* AppConstants.swift */,
+				6F4C562529C391B2000FB8BC /* AttachmentsDataSource.swift */,
+				6FEE7CCE29BA6E0A00CB36B9 /* AWSManager.swift */,
+				6F0C9953299172AB0025DA68 /* MessageStructure.swift */,
+				6FB8A1C929A9501700D78B36 /* PersonaUser.swift */,
+				6F5DE38329B7DBE600024EAD /* PersonaCommunity.swift */,
+				6F99645529996540000FFBD3 /* UserManager.swift */,
+				6FA1BBB1299D7C150000C87E /* UserManager.m */,
+				6F49EAEE29C39DB2003C45E2 /* Firestore */,
+				6FE8F8DF29D217CC00A6D875 /* RN to Native Triggers */,
+				6FE8F8E029D261F400A6D875 /* Helpers */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F77959B29BD82F20072F7FF /* Forum Post Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6F5DE37F29B7DAF600024EAD /* CustomPostMessageCell.swift */,
+				6F5DE38029B7DAF600024EAD /* CustomPostMessageCellSizeCalculator.swift */,
+			);
+			path = "Forum Post Cell";
+			sourceTree = "<group>";
+		};
+		6F7795A029BD83120072F7FF /* Proposal Message Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6F77959C29BD830E0072F7FF /* CustomProposalMessageCell.swift */,
+				6F77959D29BD830E0072F7FF /* CustomProposalMessageCellSizeCalculator.swift */,
+			);
+			path = "Proposal Message Cell";
+			sourceTree = "<group>";
+		};
+		6F7E01B8299EBF5500DE3B67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F1B504F29A45E790082088B /* CustomMessagesCollectionViewFlowLayout.swift */,
+				6FC841E429DA21C200EC2516 /* LoadingView.swift */,
+				6F1B505129A45E790082088B /* CustomCell1.swift */,
+				6F1B505329A45E790082088B /* CustomCellDelegate.swift */,
+				6F1B505529A45E790082088B /* CustomCell1SizeCalculator.swift */,
+				6F1B505629A45E790082088B /* CustomExtension.swift */,
+				6F1B505029A45E790082088B /* CustomMediaMessageCell.swift */,
+				6F1B505729A45E790082088B /* CustomMediaMessageCellSizeCalculator.swift */,
+				6F1B505429A45E790082088B /* CustomTextMessageCell.swift */,
+				6F1B505229A45E790082088B /* CustomTextMessageCellSizeCalculator.swift */,
+				6F77959B29BD82F20072F7FF /* Forum Post Cell */,
+				6F7795A029BD83120072F7FF /* Proposal Message Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FE8F8DF29D217CC00A6D875 /* RN to Native Triggers */ = {
+			isa = PBXGroup;
+			children = (
+				6FF22FB629B82CE200FD42C2 /* TriggerManager.swift */,
+				6FF22FB829B82D1600FD42C2 /* TriggerManager.m */,
+			);
+			path = "RN to Native Triggers";
+			sourceTree = "<group>";
+		};
+		6FE8F8E029D261F400A6D875 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6FDA3F5A2995E3E0002D017A /* UIClassHelpers.swift */,
+				6FE8F8E129D2623200A6D875 /* Debouncer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				9200F6E529A5C095003FE0FE /* FoundationInclude.swift */,
+				44D09A5B2614D73300976948 /* DebugPersonaGoogleServiceInfo */,
+				44D09A5A2614D72200976948 /* PersonaGoogleServiceInfo */,
+				13B07FAE1A68108700A75B9A /* Persona */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* PersonaTests */,
+				445A087126F920B300EA9F5B /* ImageNotification */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				E298BBF730B3DA955BAE788B /* Pods */,
+				5F5488AA81CF475D87975935 /* Resources */,
+				9200F6E829A8171A003FE0FE /* Recovered References */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Persona.app */,
+				00E356EE1AD99517003FC87E /* PersonaTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Persona-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Persona-tvOSTests.xctest */,
+				4411B5AB2614C86200586B8D /* Debug Persona.app */,
+				445A087026F920B300EA9F5B /* ImageNotification.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9200F6E829A8171A003FE0FE /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		E298BBF730B3DA955BAE788B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A60970D4C0AB11F1645D8758 /* Pods-AbstractPersona-Debug Persona.debug.xcconfig */,
+				1B2F1424F50D8B72D879532F /* Pods-AbstractPersona-Debug Persona.release.xcconfig */,
+				50359771965AA11DC1DF1E72 /* Pods-AbstractPersona-ImageNotification.debug.xcconfig */,
+				54AED5444D275B4F085C8746 /* Pods-AbstractPersona-ImageNotification.release.xcconfig */,
+				F6E925828EA7FF6187FF910E /* Pods-AbstractPersona-Persona.debug.xcconfig */,
+				6E531C5598F35C97184B0FD2 /* Pods-AbstractPersona-Persona.release.xcconfig */,
+				111D05B7D34EDFE92CAE7EB8 /* Pods-AbstractPersona-PersonaTests.debug.xcconfig */,
+				73494EFCFDAF652A89DE6B6B /* Pods-AbstractPersona-PersonaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* PersonaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PersonaTests" */;
+			buildPhases = (
+				CF17404EA4B37A979EB9FAB8 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				2ABD5ED7CD8E30A38FFB6CCA /* Start Packager */,
+				1C05951C585E6F87BA5648B4 /* [CP] Embed Pods Frameworks */,
+				07EC032C41F6C7E49071E42B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = PersonaTests;
+			productName = PersonaTests;
+			productReference = 00E356EE1AD99517003FC87E /* PersonaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Persona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Persona" */;
+			buildPhases = (
+				F4D619B2B3952BF3FE90C443 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				BED1C98F26AB0B9F0046E78C /* Embed Frameworks */,
+				445A087A26F920B300EA9F5B /* Embed App Extensions */,
+				0C1448BBE0BE8ECBE11391C7 /* [CP] Embed Pods Frameworks */,
+				4FC2EF5673B3399BBE0B883F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445A087726F920B300EA9F5B /* PBXTargetDependency */,
+			);
+			name = Persona;
+			productName = Persona;
+			productReference = 13B07F961A680F5B00A75B9A /* Persona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Persona-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Persona-tvOS" */;
+			buildPhases = (
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Persona-tvOS";
+			productName = "Persona-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Persona-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Persona-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Persona-tvOSTests" */;
+			buildPhases = (
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Persona-tvOSTests";
+			productName = "Persona-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Persona-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4411B5952614C86100586B8D /* Debug Persona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4411B5A82614C86100586B8D /* Build configuration list for PBXNativeTarget "Debug Persona" */;
+			buildPhases = (
+				08BCD879BBCCD90A3C5EA6DB /* [CP] Check Pods Manifest.lock */,
+				4411B5982614C86100586B8D /* Sources */,
+				4411B59C2614C86100586B8D /* Frameworks */,
+				4411B59E2614C86100586B8D /* Resources */,
+				BE7569B826A7B8A40000B77B /* Embed Frameworks */,
+				540D7FBF59655FFA31FDC33E /* Start Packager */,
+				708C3F6875B046527673FAB0 /* [CP] Embed Pods Frameworks */,
+				8AE9EBBC112A405BBFE55522 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Debug Persona";
+			productName = Persona;
+			productReference = 4411B5AB2614C86200586B8D /* Debug Persona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		445A086F26F920B300EA9F5B /* ImageNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445A088026F920B300EA9F5B /* Build configuration list for PBXNativeTarget "ImageNotification" */;
+			buildPhases = (
+				D784734F873A572216CFAC0E /* [CP] Check Pods Manifest.lock */,
+				445A086C26F920B300EA9F5B /* Sources */,
+				445A086D26F920B300EA9F5B /* Frameworks */,
+				445A086E26F920B300EA9F5B /* Resources */,
+				D984598D3C2078B936D7F828 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageNotification;
+			productName = ImageNotification;
+			productReference = 445A087026F920B300EA9F5B /* ImageNotification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 6ZK3B8F3Z9;
+						ProvisioningStyle = Manual;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1240;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6ZK3B8F3Z9;
+						ProvisioningStyle = Manual;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6ZK3B8F3Z9;
+						ProvisioningStyle = Manual;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+					445A086F26F920B300EA9F5B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Persona" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Persona */,
+				4411B5952614C86100586B8D /* Debug Persona */,
+				00E356ED1AD99517003FC87E /* PersonaTests */,
+				2D02E47A1E0B4A5D006451C7 /* Persona-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Persona-tvOSTests */,
+				445A086F26F920B300EA9F5B /* ImageNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE333D6F25D58E3C002E166D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C6E34A8629B0E93C00597BB3 /* MaterialCommunityIcons.ttf in Resources */,
+				C6E34A8729B0E93C00597BB3 /* FontAwesome5_Brands.ttf in Resources */,
+				BE333D6E25D58E3C002E166D /* GoogleService-Info.plist in Resources */,
+				69C903DE3FD548CAAEA3EE9A /* iAWriterQuattroS-Bold.ttf in Resources */,
+				669E6F67A52347FDBB92D295 /* iAWriterQuattroS-BoldItalic.ttf in Resources */,
+				AC5B06EA2C494AAD97F72EFA /* iAWriterQuattroS-Italic.ttf in Resources */,
+				E5DB683098F343BCA24CD817 /* iAWriterQuattroS-Regular.ttf in Resources */,
+				C6E34A7C29B0E93C00597BB3 /* Zocial.ttf in Resources */,
+				A7980574821240F88AE99AAD /* iAWriterDuoS-Bold.ttf in Resources */,
+				AD8D0ECD780D47AF9F3D529E /* iAWriterDuoS-BoldItalic.ttf in Resources */,
+				C6E34A8029B0E93C00597BB3 /* MaterialIcons.ttf in Resources */,
+				7EE7212E48F14280ADAE0905 /* iAWriterDuoS-Italic.ttf in Resources */,
+				66B383A42E794AAD889F93FA /* iAWriterDuoS-Regular.ttf in Resources */,
+				5AEDF7F8F98E478E83BE05B6 /* iAWriterDuospace-Bold.ttf in Resources */,
+				5557265BAFAE40799CF344A6 /* iAWriterDuospace-BoldItalic.ttf in Resources */,
+				29392933591247B8996F64E0 /* iAWriterDuospace-Italic.ttf in Resources */,
+				C6E34A7E29B0E93C00597BB3 /* FontAwesome5_Solid.ttf in Resources */,
+				C6E34A7929B0E93C00597BB3 /* AntDesign.ttf in Resources */,
+				7C8D3D33EDBA4F60A5BA0B7E /* iAWriterDuospace-Regular.ttf in Resources */,
+				A13AC900053D4B6FB2E2AE43 /* iAWriterMonoS-Bold.ttf in Resources */,
+				3DCF9F6597F148339C80420B /* iAWriterMonoS-BoldItalic.ttf in Resources */,
+				C6E34A8229B0E93C00597BB3 /* FontAwesome5_Regular.ttf in Resources */,
+				39FA4D79120A41968C0C3470 /* iAWriterMonoS-Italic.ttf in Resources */,
+				C6E34A7A29B0E93C00597BB3 /* Foundation.ttf in Resources */,
+				1AF9F41355FA4C9A85ED078D /* iAWriterMonoS-Regular.ttf in Resources */,
+				92BBCFCED70B48BDAA34C408 /* SF-Pro-Display-Black.otf in Resources */,
+				C6E34A8429B0E93C00597BB3 /* SimpleLineIcons.ttf in Resources */,
+				2C5ECEFF23394E19BD089750 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				C6E34A8129B0E93C00597BB3 /* Ionicons.ttf in Resources */,
+				C6E34A7829B0E93C00597BB3 /* Fontisto.ttf in Resources */,
+				C6E34A7F29B0E93C00597BB3 /* Octicons.ttf in Resources */,
+				52AD05FFF372424B8BF9F3C5 /* SF-Pro-Display-Bold.otf in Resources */,
+				2EAE8D7AA7D94672A044C08F /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				C6E34A8529B0E93C00597BB3 /* Entypo.ttf in Resources */,
+				427FD6136ECA4D329FAFA575 /* SF-Pro-Display-Heavy.otf in Resources */,
+				D6EE01476EDB4BEE9854E13E /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				24FE0E6E10694769870C3561 /* SF-Pro-Display-Light.otf in Resources */,
+				AC416719F9354855BBD62DE4 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				B25BC24702A14C8B9B7649A4 /* SF-Pro-Display-Medium.otf in Resources */,
+				C6E34A7B29B0E93C00597BB3 /* EvilIcons.ttf in Resources */,
+				F1BCD8DD26534A45B00E51A4 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				C6E34A7D29B0E93C00597BB3 /* Feather.ttf in Resources */,
+				08188CCC48AF426493C6B0B1 /* SF-Pro-Display-Regular.otf in Resources */,
+				C6E34A8329B0E93C00597BB3 /* FontAwesome.ttf in Resources */,
+				684E026BA0BE48DF857A9F0C /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				5EE28343208C4BB285D05D7D /* SF-Pro-Display-Semibold.otf in Resources */,
+				FF817F4A264B44E2B4135754 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				B63CB2FEB733467B82F0AE7C /* SF-Pro-Display-Thin.otf in Resources */,
+				05EC5F2D4B5946E5AE3E1A83 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				DA2A5489AA27418EBE930FA9 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				483C251AD59A47218EF9E995 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				27FC57B0945B4A79A1B7BCB3 /* SF-Pro.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				BE333D7025D58E3C002E166D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE333D7125D58E3C002E166D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4411B59E2614C86100586B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E34AA029B0E93D00597BB3 /* SF-Pro-Display-Thin.otf in Resources */,
+				C6E34A9929B0E93D00597BB3 /* FontAwesome5_Solid.ttf in Resources */,
+				C6E34AB929B0E93D00597BB3 /* MaterialCommunityIcons.ttf in Resources */,
+				C6E34ABA29B0E93D00597BB3 /* FontAwesome5_Brands.ttf in Resources */,
+				C6E34A8A29B0E93D00597BB3 /* Fontisto.ttf in Resources */,
+				C6E34AB129B0E93D00597BB3 /* iAWriterQuattroS-BoldItalic.ttf in Resources */,
+				C6E34AA329B0E93D00597BB3 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				C6E34A9329B0E93D00597BB3 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				C6E34AB729B0E93D00597BB3 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				C6E34A9B29B0E93D00597BB3 /* Octicons.ttf in Resources */,
+				C6E34AAC29B0E93D00597BB3 /* SF-Pro-Display-Light.otf in Resources */,
+				C6E34A9829B0E93D00597BB3 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				C6E34AB329B0E93D00597BB3 /* SF-Pro-Display-Bold.otf in Resources */,
+				C6E34AB529B0E93D00597BB3 /* iAWriterMonoS-Italic.ttf in Resources */,
+				C6E34A9729B0E93D00597BB3 /* iAWriterDuospace-BoldItalic.ttf in Resources */,
+				C6E34AA129B0E93D00597BB3 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				C6E34AAB29B0E93D00597BB3 /* iAWriterMonoS-Bold.ttf in Resources */,
+				C6E34AB829B0E93D00597BB3 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				C6E34AA829B0E93D00597BB3 /* iAWriterDuospace-Italic.ttf in Resources */,
+				C6E34A9029B0E93D00597BB3 /* SF-Pro.ttf in Resources */,
+				C6E34AA729B0E93D00597BB3 /* Ionicons.ttf in Resources */,
+				C6E34AB629B0E93D00597BB3 /* iAWriterDuoS-Regular.ttf in Resources */,
+				C6E34A8F29B0E93D00597BB3 /* EvilIcons.ttf in Resources */,
+				C6E34A8829B0E93D00597BB3 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				C6E34A8B29B0E93D00597BB3 /* iAWriterDuospace-Regular.ttf in Resources */,
+				C6E34AA229B0E93D00597BB3 /* SF-Pro-Display-Semibold.otf in Resources */,
+				C6E34A9A29B0E93D00597BB3 /* iAWriterQuattroS-Regular.ttf in Resources */,
+				C6E34AA429B0E93D00597BB3 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				C6E34AA629B0E93D00597BB3 /* iAWriterDuoS-Italic.ttf in Resources */,
+				C6E34A8D29B0E93D00597BB3 /* Foundation.ttf in Resources */,
+				C6E34AA529B0E93D00597BB3 /* MaterialIcons.ttf in Resources */,
+				C6E34A9229B0E93D00597BB3 /* Zocial.ttf in Resources */,
+				C6E34A9629B0E93D00597BB3 /* Feather.ttf in Resources */,
+				4411B59F2614C86100586B8D /* LaunchScreen.storyboard in Resources */,
+				44D09A5D2614D7AF00976948 /* GoogleService-Info.plist in Resources */,
+				C6E34AAE29B0E93D00597BB3 /* iAWriterDuoS-BoldItalic.ttf in Resources */,
+				C6E34AAF29B0E93D00597BB3 /* SF-Pro-Display-Heavy.otf in Resources */,
+				C6E34A9D29B0E93D00597BB3 /* iAWriterMonoS-Regular.ttf in Resources */,
+				C6E34A9F29B0E93D00597BB3 /* iAWriterDuospace-Bold.ttf in Resources */,
+				C6E34A9429B0E93D00597BB3 /* SF-Pro-Display-Regular.otf in Resources */,
+				4411B5A02614C86100586B8D /* Images.xcassets in Resources */,
+				C6E34A8C29B0E93D00597BB3 /* AntDesign.ttf in Resources */,
+				C6E34A8E29B0E93D00597BB3 /* iAWriterQuattroS-Italic.ttf in Resources */,
+				C6E34AB429B0E93D00597BB3 /* Entypo.ttf in Resources */,
+				C6E34A9529B0E93D00597BB3 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				C6E34A9C29B0E93D00597BB3 /* iAWriterQuattroS-Bold.ttf in Resources */,
+				C6E34AB229B0E93D00597BB3 /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				C6E34AB029B0E93D00597BB3 /* SimpleLineIcons.ttf in Resources */,
+				C6E34AAD29B0E93D00597BB3 /* FontAwesome.ttf in Resources */,
+				C6E34A9129B0E93D00597BB3 /* iAWriterMonoS-BoldItalic.ttf in Resources */,
+				C6E34A8929B0E93D00597BB3 /* SF-Pro-Display-Medium.otf in Resources */,
+				C6E34A9E29B0E93D00597BB3 /* SF-Pro-Display-Black.otf in Resources */,
+				C6E34AA929B0E93D00597BB3 /* FontAwesome5_Regular.ttf in Resources */,
+				C6E34AAA29B0E93D00597BB3 /* iAWriterDuoS-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445A086E26F920B300EA9F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E34ABD29B0E93F00597BB3 /* Fontisto.ttf in Resources */,
+				C6E34AD929B0E93F00597BB3 /* iAWriterDuoS-Italic.ttf in Resources */,
+				C6E34AC729B0E93F00597BB3 /* SF-Pro-Display-Regular.otf in Resources */,
+				C6E34AE129B0E93F00597BB3 /* iAWriterDuoS-BoldItalic.ttf in Resources */,
+				C6E34ADE29B0E93F00597BB3 /* iAWriterMonoS-Bold.ttf in Resources */,
+				C6E34AD829B0E93F00597BB3 /* MaterialIcons.ttf in Resources */,
+				C6E34AC929B0E93F00597BB3 /* Feather.ttf in Resources */,
+				C6E34AC429B0E93F00597BB3 /* iAWriterMonoS-BoldItalic.ttf in Resources */,
+				C6E34AE329B0E93F00597BB3 /* SimpleLineIcons.ttf in Resources */,
+				C6E34ABC29B0E93F00597BB3 /* SF-Pro-Display-Medium.otf in Resources */,
+				C6E34AE629B0E93F00597BB3 /* SF-Pro-Display-Bold.otf in Resources */,
+				C6E34ABE29B0E93F00597BB3 /* iAWriterDuospace-Regular.ttf in Resources */,
+				C6E34ACF29B0E93F00597BB3 /* iAWriterQuattroS-Bold.ttf in Resources */,
+				C6E34AE229B0E93F00597BB3 /* SF-Pro-Display-Heavy.otf in Resources */,
+				C6E34AC629B0E93F00597BB3 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				C6E34ADA29B0E93F00597BB3 /* Ionicons.ttf in Resources */,
+				C6E34AE829B0E93F00597BB3 /* iAWriterMonoS-Italic.ttf in Resources */,
+				C6E34AC029B0E93F00597BB3 /* Foundation.ttf in Resources */,
+				C6E34ADB29B0E93F00597BB3 /* iAWriterDuospace-Italic.ttf in Resources */,
+				C6E34AC829B0E93F00597BB3 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				C6E34AD329B0E93F00597BB3 /* SF-Pro-Display-Thin.otf in Resources */,
+				C6E34ABB29B0E93F00597BB3 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				C6E34ACE29B0E93F00597BB3 /* Octicons.ttf in Resources */,
+				C6E34ACA29B0E93F00597BB3 /* iAWriterDuospace-BoldItalic.ttf in Resources */,
+				C6E34AC529B0E93F00597BB3 /* Zocial.ttf in Resources */,
+				C6E34AD529B0E93F00597BB3 /* SF-Pro-Display-Semibold.otf in Resources */,
+				C6E34AD229B0E93F00597BB3 /* iAWriterDuospace-Bold.ttf in Resources */,
+				C6E34AEA29B0E93F00597BB3 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				C6E34AD429B0E93F00597BB3 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				C6E34AC229B0E93F00597BB3 /* EvilIcons.ttf in Resources */,
+				C6E34ACD29B0E93F00597BB3 /* iAWriterQuattroS-Regular.ttf in Resources */,
+				C6E34AC129B0E93F00597BB3 /* iAWriterQuattroS-Italic.ttf in Resources */,
+				C6E34AC329B0E93F00597BB3 /* SF-Pro.ttf in Resources */,
+				C6E34ACC29B0E93F00597BB3 /* FontAwesome5_Solid.ttf in Resources */,
+				C6E34ACB29B0E93F00597BB3 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				C6E34ADD29B0E93F00597BB3 /* iAWriterDuoS-Bold.ttf in Resources */,
+				C6E34AE429B0E93F00597BB3 /* iAWriterQuattroS-BoldItalic.ttf in Resources */,
+				C6E34AD629B0E93F00597BB3 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				C6E34AD129B0E93F00597BB3 /* SF-Pro-Display-Black.otf in Resources */,
+				C6E34AED29B0E93F00597BB3 /* FontAwesome5_Brands.ttf in Resources */,
+				C6E34AD729B0E93F00597BB3 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				C6E34ADF29B0E93F00597BB3 /* SF-Pro-Display-Light.otf in Resources */,
+				C6E34ABF29B0E93F00597BB3 /* AntDesign.ttf in Resources */,
+				C6E34AE029B0E93F00597BB3 /* FontAwesome.ttf in Resources */,
+				C6E34ADC29B0E93F00597BB3 /* FontAwesome5_Regular.ttf in Resources */,
+				C6E34AEB29B0E93F00597BB3 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				C6E34AD029B0E93F00597BB3 /* iAWriterMonoS-Regular.ttf in Resources */,
+				C6E34AEC29B0E93F00597BB3 /* MaterialCommunityIcons.ttf in Resources */,
+				C6E34AE929B0E93F00597BB3 /* iAWriterDuoS-Regular.ttf in Resources */,
+				C6E34AE729B0E93F00597BB3 /* Entypo.ttf in Resources */,
+				C6E34AE529B0E93F00597BB3 /* SF-Pro-Display-BoldItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export SENTRY_PROPERTIES=sentry.properties\nexport EXTRA_PACKAGER_ARGS=\"--sourcemap-output $DERIVED_FILE_DIR/main.jsbundle.map\"\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n\n/bin/sh ../node_modules/@sentry/react-native/scripts/collect-modules.sh\n";
+		};
+		07EC032C41F6C7E49071E42B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbstractPersona-PersonaTests/Pods-AbstractPersona-PersonaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08BCD879BBCCD90A3C5EA6DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbstractPersona-Debug Persona-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C1448BBE0BE8ECBE11391C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbstractPersona-Persona/Pods-AbstractPersona-Persona-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C05951C585E6F87BA5648B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbstractPersona-PersonaTests/Pods-AbstractPersona-PersonaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ABD5ED7CD8E30A38FFB6CCA /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbstractPersona-PersonaTests/Pods-AbstractPersona-PersonaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC2EF5673B3399BBE0B883F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbstractPersona-Persona/Pods-AbstractPersona-Persona-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		540D7FBF59655FFA31FDC33E /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbstractPersona-PersonaTests/Pods-AbstractPersona-PersonaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708C3F6875B046527673FAB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbstractPersona-Debug Persona/Pods-AbstractPersona-Debug Persona-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE9EBBC112A405BBFE55522 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbstractPersona-Debug Persona/Pods-AbstractPersona-Debug Persona-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF17404EA4B37A979EB9FAB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbstractPersona-PersonaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D784734F873A572216CFAC0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbstractPersona-ImageNotification-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D984598D3C2078B936D7F828 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbstractPersona-ImageNotification/Pods-AbstractPersona-ImageNotification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D619B2B3952BF3FE90C443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbstractPersona-Persona-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* PersonaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA1BBB2299D7C150000C87E /* UserManager.m in Sources */,
+				6FF4F64B29BA9A1100FCE7D3 /* ChatBottomMediaSelectionViewController.swift in Sources */,
+				6F16EB6E29A046D800F15A39 /* AppConstants.swift in Sources */,
+				6F1B505D29A45E790082088B /* CustomTextMessageCell.swift in Sources */,
+				6F0C9954299172AB0025DA68 /* MessageStructure.swift in Sources */,
+				6FE237612994A95300042F32 /* FirestoreHelper.swift in Sources */,
+				6F1B505B29A45E790082088B /* CustomTextMessageCellSizeCalculator.swift in Sources */,
+				6F1B505C29A45E790082088B /* CustomCellDelegate.swift in Sources */,
+				9200F6E929A819DE003FE0FE /* NativeChatViewController.swift in Sources */,
+				6F5DE38129B7DAF600024EAD /* CustomPostMessageCell.swift in Sources */,
+				6F4C562629C391B2000FB8BC /* AttachmentsDataSource.swift in Sources */,
+				6F99645629996540000FFBD3 /* UserManager.swift in Sources */,
+				6FDA3F5B2995E3E0002D017A /* UIClassHelpers.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				6F1B506029A45E790082088B /* CustomMediaMessageCellSizeCalculator.swift in Sources */,
+				6F1B505829A45E790082088B /* CustomMessagesCollectionViewFlowLayout.swift in Sources */,
+				6F1B505929A45E790082088B /* CustomMediaMessageCell.swift in Sources */,
+				6FC841E529DA21C200EC2516 /* LoadingView.swift in Sources */,
+				6F1B505F29A45E790082088B /* CustomExtension.swift in Sources */,
+				9200F6EA29A819F2003FE0FE /* FirestoreManager.swift in Sources */,
+				6F2D9A8529903165007DF9AA /* ContainerView.swift in Sources */,
+				6F77959F29BD830E0072F7FF /* CustomProposalMessageCellSizeCalculator.swift in Sources */,
+				6F7E01B7299EBCA200DE3B67 /* ChatBottomSelectionViewController.swift in Sources */,
+				6FB8A1CA29A9501700D78B36 /* PersonaUser.swift in Sources */,
+				6FEE7CCF29BA6E0A00CB36B9 /* AWSManager.swift in Sources */,
+				6F1B505A29A45E790082088B /* CustomCell1.swift in Sources */,
+				6F2D9A8329902A01007DF9AA /* RNTMapManager.m in Sources */,
+				6FF22FB729B82CE200FD42C2 /* TriggerManager.swift in Sources */,
+				6F1B505E29A45E790082088B /* CustomCell1SizeCalculator.swift in Sources */,
+				6F996452299835CF000FFBD3 /* PhotoViewerViewController.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				6F4C562829C39257000FB8BC /* PostDiscussionViewController.swift in Sources */,
+				6FF22FB929B82D1600FD42C2 /* TriggerManager.m in Sources */,
+				9200F6E629A5C095003FE0FE /* FoundationInclude.swift in Sources */,
+				6FE8F8E229D2623200A6D875 /* Debouncer.swift in Sources */,
+				6F5DE38429B7DBE600024EAD /* PersonaCommunity.swift in Sources */,
+				6F5DE38229B7DAF600024EAD /* CustomPostMessageCellSizeCalculator.swift in Sources */,
+				6F77959E29BD830E0072F7FF /* CustomProposalMessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* PersonaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4411B5982614C86100586B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4411B5992614C86100586B8D /* AppDelegate.mm in Sources */,
+				C6E34AEE29B0FE2E00597BB3 /* FoundationInclude.swift in Sources */,
+				4411B59B2614C86100586B8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445A086C26F920B300EA9F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445A087426F920B300EA9F5B /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Persona */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Persona-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+		445A087726F920B300EA9F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445A086F26F920B300EA9F5B /* ImageNotification */;
+			targetProxy = 445A087626F920B300EA9F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111D05B7D34EDFE92CAE7EB8 /* Pods-AbstractPersona-PersonaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PersonaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persona.app/Persona";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73494EFCFDAF652A89DE6B6B /* Pods-AbstractPersona-PersonaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = PersonaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persona.app/Persona";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E925828EA7FF6187FF910E /* Pods-AbstractPersona-Persona.debug.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = Persona;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Persona/Persona.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 398;
+				DEVELOPMENT_TEAM = 6ZK3B8F3Z9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Persona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.22;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Persona.PersonaAlpha;
+				PRODUCT_NAME = Persona;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Persona-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E531C5598F35C97184B0FD2 /* Pods-AbstractPersona-Persona.release.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = Persona;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Persona/Persona.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 398;
+				DEVELOPMENT_TEAM = 6ZK3B8F3Z9;
+				INFOPLIST_FILE = Persona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.22;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Persona.PersonaAlpha;
+				PRODUCT_NAME = Persona;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Persona-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Persona-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Persona-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Persona-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Persona-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Persona-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Persona-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persona-tvOS.app/Persona-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Persona-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Persona-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persona-tvOS.app/Persona-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Release;
+		};
+		4411B5A92614C86100586B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60970D4C0AB11F1645D8758 /* Pods-AbstractPersona-Debug Persona.debug.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Debug-Persona";
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Debug";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Persona/Persona.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 46;
+				DEVELOPMENT_TEAM = 6ZK3B8F3Z9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Persona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.22;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Persona.PersonaAlpha.debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Persona-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		4411B5AA2614C86100586B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2F1424F50D8B72D879532F /* Pods-AbstractPersona-Debug Persona.release.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = "Debug-Persona";
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Debug";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Persona/Persona.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 46;
+				DEVELOPMENT_TEAM = 6ZK3B8F3Z9;
+				INFOPLIST_FILE = Persona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.22;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Persona.PersonaAlpha.debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Persona-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		445A087B26F920B300EA9F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50359771965AA11DC1DF1E72 /* Pods-AbstractPersona-ImageNotification.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ImageNotification/ImageNotification.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6ZK3B8F3Z9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ImageNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Persona.PersonaAlpha.ImageNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		445A087C26F920B300EA9F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54AED5444D275B4F085C8746 /* Pods-AbstractPersona-ImageNotification.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ImageNotification/ImageNotification.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6ZK3B8F3Z9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ImageNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Persona.PersonaAlpha.ImageNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: William Doenlen (Q73N576U6X)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 6ZK3B8F3Z9;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Persona.PersonaAlpha;
+				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: William Doenlen (6ZK3B8F3Z9)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 6ZK3B8F3Z9;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Persona.PersonaAlpha;
+				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PersonaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Persona-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Persona-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4411B5A82614C86100586B8D /* Build configuration list for PBXNativeTarget "Debug Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4411B5A92614C86100586B8D /* Debug */,
+				4411B5AA2614C86100586B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445A088026F920B300EA9F5B /* Build configuration list for PBXNativeTarget "ImageNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445A087B26F920B300EA9F5B /* Debug */,
+				445A087C26F920B300EA9F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

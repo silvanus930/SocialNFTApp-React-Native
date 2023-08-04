@@ -1,0 +1,1 @@
+export const AUTOSAVE_INTERVAL_MS = 1000;

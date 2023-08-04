@@ -1,0 +1,40 @@
+{
+  "aps": {
+    "badge": 0,
+    "alert": {
+      "title": "Test Push",
+      "body": "Success! Push notification in simulator! 🎉",
+      "sound": "default",
+    }
+  },
+  "gcm.message_id": "1",
+  "type": "payment_failure",
+  "Simulator Target Bundle": "com.Persona.PersonaAlpha",
+  "acme1" : {
+    "collapseKey": "com.persona.personaalpha",
+    "data": {
+        "body": "Wiliam published \"Test3Title\" on TestChannel1",
+        "eventId": "YATO92hyRsqAVJzJDONA",
+        "eventType": "new_post_from_collaborator",
+        "isPostPublished": "true",
+        "personaId": "uXZGh11Kbk88gypf1zEl",
+        "personaKey": "uXZGh11Kbk88gypf1zEl",
+        "personaName": "TestChannel1",
+        "personaProfileImgUrl": "",
+        "pid": "uXZGh11Kbk88gypf1zEl",
+        "postKey": "riaF8LRjZQe5oNxfPwlf",
+        "title": "New post on TestChannel1"
+    },
+    "from": "659704987877",
+    "messageId": "0:1673889985545419%35f4468135f44681",
+    "notification": {
+        "android": {
+            "imageUrl": "https://d15rrhm2u3m386.cloudfront.net/eyJidWNrZXQiOiJwZXJzb25hLWNvbnRlbnQtc3RvcmUiLCJrZXkiOiJkZWZhdWx0UGVyc29uYS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDB9LCJyb3RhdGUiOm51bGx9fQ=="
+        },
+        "body": "Wiliam published \"Test3Title\" on TestChannel1",
+        "title": "New post on TestChannel1"
+    },
+    "sentTime": 1673889985538,
+    "ttl": 2419200
+    }
+}

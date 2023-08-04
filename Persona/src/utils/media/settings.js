@@ -1,0 +1,1 @@
+export const AUDIO_METERING_INTERVAL = 100; // 100ms

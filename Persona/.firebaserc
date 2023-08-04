@@ -1,0 +1,12 @@
+{
+  "projects": {},
+  "targets": {},
+  "etags": {
+    "persona-srv-301611": {
+      "extensionInstances": {
+        "send-message": "f0905f79f7eab2ba2c8856afd822137f4bc790168b6d5ce2f12aeaaf2a794eee",
+        "firestore-algolia-search": "5f3d8d446cff2ae0bdc9a866c37664e8c15c4eb88be09fe357b9dc3d6f44d192"
+      }
+    }
+  }
+}

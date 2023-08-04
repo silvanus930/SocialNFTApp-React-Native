@@ -1,0 +1,5 @@
+# CocoaPods
+Pods/
+Podfile.lock
+Persona.xcodeproj/xcuserdata/
+Persona.xcworkspace/xcuserdata/

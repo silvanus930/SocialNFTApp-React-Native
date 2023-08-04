@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(APP_DISPLAY_NAME)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.659704987877-9re0bs2j7a2645bi3uchr0h5niibv1uk</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FirebaseAutomaticScreenReportingEnabled</key>
+	<false/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Persona needs access to your Apple Music library to help you share your music on Persona.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Persona needs access to your calendar to help you manage your upcoming events on Persona.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Persona needs access to your phone's camera to post photos on Persona.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Persona needs access to your contacts to help you find your friends using Persona.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Persona needs access to the location services on your phone to geo-tag your posts with your location.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Persona needs access to your phone's microphone so that you can record and post audio samples.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Persona uses the motion sensors on your device to detect relative orientation, especially used during video recording.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Persona needs access to your photo library to save photos and videos that you take on Persona.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Persona needs access to your photo library so that you can post photos on Persona.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>Siri helps you search for content on Persona.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Persona uses speech recognition to make it easier to enter text.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>AdobeClean-Bold.woff</string>
+		<string>AdobeClean-BoldIt.woff</string>
+		<string>AdobeClean-BoldSemiCn.woff</string>
+		<string>AdobeClean-BoldSemiCnIt.woff</string>
+		<string>AdobeClean-It.woff</string>
+		<string>AdobeClean-Light.woff</string>
+		<string>AdobeClean-LightIt.woff</string>
+		<string>AdobeClean-Regular.woff</string>
+		<string>AdobeClean-SemiCn.woff</string>
+		<string>AdobeClean-SemiCnIt.woff</string>
+		<string>iAWriterQuattroS-Bold.ttf</string>
+		<string>iAWriterQuattroS-BoldItalic.ttf</string>
+		<string>iAWriterQuattroS-Italic.ttf</string>
+		<string>iAWriterQuattroS-Regular.ttf</string>
+		<string>iAWriterDuoS-Bold.ttf</string>
+		<string>iAWriterDuoS-BoldItalic.ttf</string>
+		<string>iAWriterDuoS-Italic.ttf</string>
+		<string>iAWriterDuoS-Regular.ttf</string>
+		<string>iAWriterDuospace-Bold.ttf</string>
+		<string>iAWriterDuospace-BoldItalic.ttf</string>
+		<string>iAWriterDuospace-Italic.ttf</string>
+		<string>iAWriterDuospace-Regular.ttf</string>
+		<string>iAWriterMonoS-Bold.ttf</string>
+		<string>iAWriterMonoS-BoldItalic.ttf</string>
+		<string>iAWriterMonoS-Italic.ttf</string>
+		<string>iAWriterMonoS-Regular.ttf</string>
+		<string>SF-Pro-Display-Black.otf</string>
+		<string>SF-Pro-Display-BlackItalic.otf</string>
+		<string>SF-Pro-Display-Bold.otf</string>
+		<string>SF-Pro-Display-BoldItalic.otf</string>
+		<string>SF-Pro-Display-Heavy.otf</string>
+		<string>SF-Pro-Display-HeavyItalic.otf</string>
+		<string>SF-Pro-Display-Light.otf</string>
+		<string>SF-Pro-Display-LightItalic.otf</string>
+		<string>SF-Pro-Display-Medium.otf</string>
+		<string>SF-Pro-Display-MediumItalic.otf</string>
+		<string>SF-Pro-Display-Regular.otf</string>
+		<string>SF-Pro-Display-RegularItalic.otf</string>
+		<string>SF-Pro-Display-Semibold.otf</string>
+		<string>SF-Pro-Display-SemiboldItalic.otf</string>
+		<string>SF-Pro-Display-Thin.otf</string>
+		<string>SF-Pro-Display-ThinItalic.otf</string>
+		<string>SF-Pro-Display-Ultralight.otf</string>
+		<string>SF-Pro-Display-UltralightItalic.otf</string>
+		<string>SF-Pro.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDarkContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

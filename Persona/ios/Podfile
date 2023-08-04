@@ -1,0 +1,120 @@
+$RNFirebaseAsStaticFramework = true
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '13.0'
+prepare_react_native_project!
+
+# If you are using a `react-native-flipper` your iOS build will fail when `NO_FLIPPER=1` is set.
+# because `react-native-flipper` depends on (FlipperKit,...) that will be excluded
+#
+# To fix this you can also exclude `react-native-flipper` using a `react-native.config.js`
+# ```js
+# module.exports = {
+#   dependencies: {
+#     ...(process.env.NO_FLIPPER ? { 'react-native-flipper': { platforms: { ios: null } } } : {}),
+# ```
+
+install! 'cocoapods', :disable_input_output_paths => true # related to use of MessageKit
+
+flipper_config = ENV['NO_FLIPPER'] == "1" ? FlipperConfiguration.disabled : FlipperConfiguration.enabled
+
+abstract_target 'AbstractPersona' do
+  pod 'ffmpeg-kit-react-native', :subspecs => ['full-gpl'], :podspec => '../node_modules/ffmpeg-kit-react-native/ffmpeg-kit-react-native.podspec'
+  config = use_native_modules!
+  use_frameworks! :linkage => :static
+
+  flags = get_default_flags()
+
+  # use_react_native!(:path => config["reactNativePath"], :hermes_enabled => true)
+
+  # An absolute path to your application root.
+  use_react_native!(
+  :path => config[:reactNativePath],
+  :hermes_enabled => flags[:hermes_enabled],
+  :fabric_enabled => flags[:fabric_enabled],
+  :app_path => "#{Pod::Config.instance.installation_root}/..",
+  #:flipper_configuration => flipper_config
+  )
+
+  pre_install do |installer|
+    Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+
+    installer.pod_targets.each do |pod|
+      if pod.name.eql?('RNPermissions') || pod.name.start_with?('Permission-')
+        def pod.build_type;
+          # Uncomment the line corresponding to your CocoaPods version
+          Pod::BuildType.static_library # >= 1.9
+          # Pod::Target::BuildType.static_library # < 1.9
+        end
+      end
+    end
+  end
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+  pod 'Permission-Contacts', :path => "#{permissions_path}/Contacts"
+  pod 'Permission-LocationAccuracy', :path => "#{permissions_path}/LocationAccuracy"
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+  pod 'Permission-MediaLibrary', :path => "#{permissions_path}/MediaLibrary"
+  pod 'Permission-Microphone', :path => "#{permissions_path}/Microphone"
+  pod 'Permission-Motion', :path => "#{permissions_path}/Motion"
+  pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications"
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+  pod 'Permission-PhotoLibraryAddOnly', :path => "#{permissions_path}/PhotoLibraryAddOnly"
+  pod 'Permission-Reminders', :path => "#{permissions_path}/Reminders"
+  pod 'Permission-Siri', :path => "#{permissions_path}/Siri"
+  pod 'Permission-SpeechRecognition', :path => "#{permissions_path}/SpeechRecognition"
+  pod 'Permission-StoreKit', :path => "#{permissions_path}/StoreKit"
+
+  pod 'Firebase/Functions'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
+  pod 'MessageKit' #iOS MessageKit for display messages
+  pod 'EmojiPicker', :git => 'https://github.com/htmlprogrammist/EmojiPicker' #emoji selection for iOS chat
+  pod 'AWSCore'
+  pod 'AWSS3'
+  pod "BSImagePicker", "~> 3.1" #for selecting photos
+
+
+  target 'Persona'
+  target 'Debug Persona'
+
+  target 'PersonaTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  target 'ImageNotification' do
+    pod 'Firebase/Messaging'
+  end
+
+  ENVFILES = {
+    'Debug' => '$(PODS_ROOT)/../../.env',
+    'Release' => '$(PODS_ROOT)/../../.env.prod',
+  }
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!({'Flipper' => '0.165.0'})
+  post_install do |installer|
+    # flipper_post_install(installer)
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'NO'
+        config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+        if target.name == 'react-native-config'
+         config.build_settings['ENVFILE'] = ENVFILES[config.name]
+       end
+      end
+    end
+  end
+
+end

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Persona</string>
+    <string name="view_replies" translatable="false">View %s replies</string>
+    <string name="reply_date" translatable="false">%s - %s</string>
+    <string name="reply_date_d" translatable="false">%s - %sd</string>
+    <string name="reply_date_m" translatable="false">%s - %sm</string>
+    <string name="reply_date_y" translatable="false">%s - %sy</string>
+    <string name="post_by" translatable="false">post by %s</string>
+    <string name="community_label" translatable="false">%s Community - %s members</string>
+    <string name="invite" translatable="false">+ Invite</string>
+</resources>

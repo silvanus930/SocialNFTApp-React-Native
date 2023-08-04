@@ -1,0 +1,1 @@
+export const POST_IMAGE_SCALE_MULTIPLIER = 3;
